@@ -110,27 +110,39 @@ const Navbar = () => {
             >
               <a
                 className="block px-4 py-2 hover:bg-[#111042] rounded-xl m-2 hover:text-white"
-                href="/link1"
+                href="/registrations"
               >
-                Link 1
+                Registrations
               </a>
               <a
                 className="block px-4 py-2 hover:bg-[#111042] rounded-xl m-2  hover:text-white"
-                href="/link2"
+                href="/speakers"
               >
-                Link 2
+                Speakers
               </a>
               <a
                 className="block px-4 py-2 hover:bg-[#111042] rounded-xl m-2  hover:text-white"
-                href="/link3"
+                href="/committee"
               >
-                Link 3
+                Committee
               </a>
               <a
                 className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
-                href="/link4"
+                href="/sponsorship"
               >
-                Link 4
+                Sponsorships
+              </a>
+              <a
+                className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
+                href="/authors"
+              >
+                Authors
+              </a>
+              <a
+                className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
+                href="/icetite20"
+              >
+                ic-ETITE'20
               </a>
             </motion.div>
           </div>
