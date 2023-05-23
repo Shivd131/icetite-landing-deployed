@@ -48,7 +48,7 @@ const Navbar = () => {
     <AnimatePresence>
       {showMobileMenu && (
         <motion.div
-          className="fixed top-0 left-0 h-full w-5/6 bg-[#111042] text-white p-5 overflow-auto"
+          className="fixed top-0 left-0 h-full w-5/6 bg-[#111042] text-white p-5 overflow-auto z-50"
           initial="closed"
           animate="open"
           exit="closed"
@@ -104,7 +104,7 @@ const Navbar = () => {
               </motion.div>
             </div>
             <motion.div
-              className="absolute top-full mt-2 w-48 py-2 bg-white text-black rounded-lg shadow-xl transition-all transform-gpu"
+              className="absolute top-full mt-2 w-48 py-2 bg-white text-black rounded-lg shadow-xl transition-all transform-gpu z-10"
               animate={showDropdown ? "open" : "closed"}
               variants={dropdownVariants}
             >

@@ -7,16 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        overlay: "rgba(0, 0, 0, 0.5)",
-      },
-      backgroundSize: {
-        "auto-70vh": "auto 70vh",
-      },
-      backgroundPosition: {
-        "overlay-right": "right",
+      clipPath: {
+        none: "none",
       },
     },
   },
-  plugins: [],
 };
