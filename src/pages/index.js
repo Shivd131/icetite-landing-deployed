@@ -155,9 +155,9 @@ export default function Home() {
               ✶ All the presented papers were published in the IEEE Xplore by
               the IEEE.
             </p>
-            <p className="text-lg sm:text-xl">
-              Proceedings
-              (https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding)
+            <p className="text-lg sm:text-xl mr-10">
+              <span>Proceedings </span>
+              <a>https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding</a>
             </p>
             <p className="text-lg sm:text-xl">
               Electronic ISBN:978-1-7281-4142-8

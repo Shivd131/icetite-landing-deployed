@@ -1,4 +1,5 @@
 import BottomNavbar from "@/components/bottomNavbar/bottomNavbar";
+import Hero from "./../components/registrations/heroSection";
 import Navbar from "@/components/navbar/navBar";
 import React from "react";
 
@@ -6,9 +7,8 @@ const Registrations = () => {
   return (
     <div>
       <Navbar />
-      <div className="h-[80vh] flex flex-col items-center justify-center">
-        "Page Under Development"
-      </div>
+      <Hero />
+
       <BottomNavbar />
     </div>
   );
