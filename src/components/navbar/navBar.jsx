@@ -115,12 +115,7 @@ const Navbar = () => {
             >
               VISA
             </a>
-            <a
-                href="/aboutus"
-                className="text-2xl text-white hover:text-gray-300"
-            >
-              About Us
-            </a>
+
             <a
                 href="/contact"
                 className="text-2xl text-white hover:text-gray-300"
@@ -208,7 +203,6 @@ const Navbar = () => {
             </motion.div>
           </div>
           <a href="/visa">Visa</a>
-          <a href="/aboutus">About</a>
           <a href="/contact">Contact</a>
         </div>
       )}
