@@ -14,7 +14,7 @@ const heroSection = () => {
         className="z-10"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
-      <div className="absolute top-0 left-0 z-30 text-white mx-16 flex flex-col h-full justify-center w-full md:w-[70vw] lg:w-[50vw]">
+      <div className="absolute top-0 left-0 z-30 text-white mx-8 md:mx-16 lg:mx-16 flex flex-col h-full justify-center w-full md:w-[70vw] lg:w-[50vw]">
         <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">
           Welcome to ic-ETITE'24 conference!
         </h1>
