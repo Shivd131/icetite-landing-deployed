@@ -157,7 +157,7 @@ export default function Home() {
             </p>
             <p className="text-lg sm:text-xl mr-10">
               <span>Proceedings </span>
-              <a>https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding</a>
+              https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding
             </p>
             <p className="text-lg sm:text-xl">
               Electronic ISBN:978-1-7281-4142-8
