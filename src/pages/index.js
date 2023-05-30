@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <div className="w-full h-[50vh] sm:w-auto">
           <Image
-            src={Conf1}
+            src={Conf2}
             alt="Image"
             className="h-full object-cover"
             style={{
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
         <div className="w-full sm:w-auto">
           <Image
-            src={Conf1}
+            src={Conf3}
             alt="Image"
             className="h-full object-cover sm:clip-none"
             style={{
