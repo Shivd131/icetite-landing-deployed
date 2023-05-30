@@ -64,11 +64,68 @@ const Navbar = () => {
             <a href="/" className="text-2xl text-white hover:text-gray-300">
               Home
             </a>
+            <a href="/bolt" className="text-2xl text-white hover:text-gray-300">
+              Bolt
+            </a>
             <a
-              href="/conference"
+                href="/registrations"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Registrations
+            </a>
+            <a
+                href="/speakers"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Speakers
+            </a>
+            <a
+                href="/committee"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Committee
+            </a>
+            <a
+              href="/sponsorship"
               className="text-2xl text-white hover:text-gray-300"
             >
-              Conference
+              Sponsorship
+            </a>
+            <a
+                href="/authors"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Authors
+            </a>
+            <a
+                href="/sponsorship"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Sponsorship
+            </a>
+            <a
+                href="/icetite20"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Ic'ETITE-20
+            </a>
+            <a
+                href="/visa"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              VISA
+            </a>
+            <a
+                href="/aboutus"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              About Us
+            </a>
+            <a
+                href="/contact"
+                className="text-2xl text-white hover:text-gray-300"
+            >
+              Contact Us
             </a>
           </div>
         </motion.div>
@@ -79,9 +136,13 @@ const Navbar = () => {
   return (
     <div className="px-20 bg-[#111042] text-white py-2 flex flex-row items-center justify-between z-50">
       <div className="flex flex-row space-x-5">
+        <a href="/">
         <Image src={Icetite} alt="" className="h-20 w-52 -translate-x-10" />
+        </a>
         {!isTabletOrMobile && (
+            <a href="/bolt">
           <Image src={Bolt} alt="" className="h-20 -translate-x-10" />
+            </a>
         )}
       </div>
       {isMobile ? (
@@ -154,7 +215,10 @@ const Navbar = () => {
 
       {!isTabletOrMobile && (
         <div>
-          <Image src={Vit} alt="" className="translate-x-5" />
+          <a href="https://vit.ac.in">
+            <Image src={Vit} alt="" className="translate-x-5" />
+          </a>
+
         </div>
       )}
       {renderMobileMenu()}
