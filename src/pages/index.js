@@ -9,6 +9,9 @@ import Img from "./../../public/images/vit.png";
 import Ieecs from "./../../public/icons/ieeecs.png";
 import Itslogo from "./../../public/icons/itslogo.png";
 import Acm from "./../../public/icons/acm.png";
+import IeeeMad from "./../../public/icons/ieeemad.png";
+import IeeeMadras from "./../../public/icons/ieeemadras.png";
+import Bi from "./../../public/icons/bi.png";
 
 import Conf1 from "./../../public/images/index/conference1.png";
 import Conf2 from "./../../public/images/index/conference2.png";
@@ -19,7 +22,7 @@ import Gal2 from "./../../public/images/index/img2.png";
 import Gal3 from "./../../public/images/index/img3.png";
 
 export default function Home() {
-  const [shouldClip, setShouldClip] = useState(false);
+  const [shouldClip, setShouldClip] = useState(true);
 
   const buttonItems = [
     "IEEE ic-ETITE'24 Final Paper Template",
@@ -309,13 +312,7 @@ export default function Home() {
           Manuscript Submission
         </h3>
         <p className="text-xl py-3">
-          The papers should be submitted through link provided. All submitted
-          papers will go through a plagiarism check process. The manuscript
-          should not contain embedded links, scanned images, header and footer.
-          Email submission will not be accepted. All queries related to the
-          conference shall be addressed to icetiteconference@gmail.com. Original
-          Contributions are solicited on topics covered under broad areas not
-          restricted to Information Technology and Engineering.
+          The papers should be submitted through link provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
         </p>
       </div>
 
@@ -325,15 +322,15 @@ export default function Home() {
           <Image src={Acm} alt="" />
           <Image src={Itslogo} alt="" />
           <Image src={Ieecs} alt="" />
+          <Image src={IeeeMad} alt=""/>
+          <Image src={Bi} alt=""/>
         </div>
       </div>
 
       <div className="flex flex-col items-center text-black font-bold pt-10 text-4xl mx-8 md:mx-24 lg:mx-48">
         <h3>SUPPORTED BY</h3>
-        <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
-          <Image src={Acm} alt="" />
-          <Image src={Itslogo} alt="" />
-          <Image src={Ieecs} alt="" />
+        <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
+          <Image src={IeeeMadras} alt="" />
         </div>
       </div>
 

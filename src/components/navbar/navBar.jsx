@@ -165,6 +165,12 @@ const Navbar = () => {
               variants={dropdownVariants}
             >
               <a
+                  className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
+                  href="/authors"
+              >
+                Authors
+              </a>
+              <a
                 className="block px-4 py-2 hover:bg-[#111042] rounded-xl m-2 hover:text-white"
                 href="/registrations"
               >
@@ -188,12 +194,7 @@ const Navbar = () => {
               >
                 Sponsorships
               </a>
-              <a
-                className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
-                href="/authors"
-              >
-                Authors
-              </a>
+
               <a
                 className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
                 href="/icetite20"
