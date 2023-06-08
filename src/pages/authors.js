@@ -16,34 +16,143 @@ const Authors = () => {
   const renderContent = () => {
     if (selectedButton === "Information Technology") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
+        <div className="bg-orange flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
           <p>Information Systems</p>
           <p>Information Retrieval</p>
-          {/* Add more items here */}
+          <p>Cloud Computing</p>
+          <p>Cloud Security</p>
+          <p>Knowledge Management</p>
+          <p>Molecular Information Systems</p>
+          <p>Data Management and Visualization</p>
+          <p>Cyber-Physical Systems</p>
+          <p>Security Systems</p>
+          <p>Digital Society</p>
+          <p>Big Data Analytics</p>
+          <p>Data Mining and Sentiment Analysis</p>
+          <p>Social Network Analytics</p>
+          <p>Data Sources and Integration</p>
+          <p>Distributed, Pervasive, and Embedded Systems Security</p>
+          <p>Multimedia and Internet Security</p>
+          <p>Image and Video Retrieval</p>
+          <p>Web-based Application and Service Security</p>
+          <p>Cyber Security</p>
+          <p>Network Security and Cryptography</p>
+          <p>Digital Forensics</p>
+          <p>Biometric Security</p>
+          <p>Quantum Cryptography</p>
+          <p>Malware Analysis and Detection</p>
+          <p>Secure IoT</p>
+          <p>Web Ontology</p>
+          <p>Web Intelligence</p>
+          <p>Search Engines</p>
+          <p>Innovative Information Security</p>
+          <p>Deep Learning</p>
+          <p>E-learning</p>
         </div>
       );
     } else if (selectedButton === "Communication Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
-          <p>Knowledge Management</p>
-          <p>Molecular Information Systems</p>
-          {/* Add more items here */}
+        <div className="bg-orange flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
+            <p>Wireless and Sensor Systems</p>
+            <p>Social Networking</p>
+            <p>Communication Signal Processing</p>
+            <p>Wireless Communications</p>
+            <p>Mobile Communication</p>
+            <p>Communication Theory and Techniques</p>
+            <p>Ad-Hoc Networks</p>
+            <p>Innovative Networking and Communication Techniques</p>
+            <p>Data Communication</p>
+            <p>TV and Sound Broadcasting</p>
+            <p>Communication IC Design</p>
+            <p>Communication Protocols</p>
+            <p>Optical Communications</p>
+            <p>Telecommunication Networks</p>
+            <p>Radio and Satellite Communications</p>
+            <p>Radar, Sonar and Navigation Systems</p>
+            <p>Space Technologies</p>
+            <p>Zigbee Technology</p>
+            <p>Human Area Network</p>
+            <p>Next Generation Protocols</p>
+            <p>Software Defined Network</p>
+            <p>GPRS</p>
+            <p>HSPA</p>
+            <p>Quantum Communication</p>
+            <p>Fiber Optic Communication</p>
+            <p>Modeling and Simulation</p>
+            <p>Sensor and Micro-Machines</p>
+            <p>Wireless Video</p>
+            <p>Intelligent Control Systems</p>
+            <p>4G & 5G</p>
+            <p>Antenna and EMC/EMI</p>
+            <p>Aerospace Applications</p>
+            <p>Speech Processing</p>
         </div>
       );
     } else if (selectedButton === "Computer Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
-          <p>Data Management and Visualization</p>
-          <p>Cyber-Physical Systems</p>
-          {/* Add more items here */}
+        <div className="bg-orange flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
+            <p>Computer Architecture</p>
+            <p>Computing for Development</p>
+            <p>Cognitive Analysis</p>
+            <p>Fuzzy Systems</p>
+            <p>Granular Computing</p>
+            <p>Modern Operating Systems</p>
+            <p>Rough Sets</p>
+            <p>Storage Techniques</p>
+            <p>User Interfaces</p>
+            <p>Next Generation Computing Technologies</p>
+            <p>Virtualization</p>
+            <p>Pervasive Computing</p>
+            <p>Quantum Computing</p>
+            <p>Human-Computer Interaction and Accessible Technology</p>
+            <p>Machine Learning</p>
+            <p>Computational Intelligence</p>
+            <p>Natural Language Processing</p>
+            <p>Programming Languages and Software Engineering</p>
+            <p>Systems and Networking</p>
+            <p>Theory of Computation</p>
+            <p>Ubiquitous Computing</p>
+            <p>Artificial Intelligence</p>
+            <p>Augmented and Virtual Reality</p>
+            <p>Computer Graphics, Vision, Animation, and Game Science</p>
         </div>
       );
     } else if (selectedButton === "Electronics Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
-          <p>Security Systems</p>
-          <p>Digital Society</p>
-          {/* Add more items here */}
+        <div className="bg-orange flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black bg-[#ff794f] space-y-5 py-10 rounded-md">
+            <p>Fabrication</p>
+            <p>Robotics</p>
+            <p>Digital Image/Signal Processing</p>
+            <p>VLSI/Embedded systems</p>
+            <p>Microprocessor Based Technologies</p>
+            <p>Applied Electromagnetics and RF Circuits</p>
+            <p>Control Systems</p>
+            <p>MEMS and Microsystems</p>
+            <p>Optics and Photonics</p>
+            <p>Plasma Science and Engineering</p>
+            <p>Power and Energy</p>
+            <p>Quantum Science and Technology</p>
+            <p>Solid-State Devices and Nanotechnology</p>
+            <p>Antenna and Wave Propagation</p>
+            <p>Intelligent Systems Architectures and Applications</p>
+            <p>Microelectronics</p>
+            <p>Nano-electronics</p>
+            <p>Power Electronics</p>
+            <p>Signal and System Theory</p>
+            <p>Solar Technology</p>
+            <p>Network Theory</p>
+            <p>Modulation Techniques</p>
+            <p>Source and Channel Coding</p>
+            <p>Switching Theory and Techniques</p>
+            <p>Microwave Theory and Techniques</p>
+            <p>Wave Propagation</p>
+            <p>Measurement and Instrumentation</p>
+            <p>Circuit Design</p>
+            <p>Simulation and CAD</p>
+            <p>Microwaves, Antennas and Radio Propagation</p>
+            <p>Optoelectronics</p>
+            <p>Electromagnetic Compatibility</p>
+            <p>Digital Governance</p>
         </div>
       );
     }

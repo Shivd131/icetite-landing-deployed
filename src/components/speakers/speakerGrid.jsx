@@ -2,49 +2,47 @@ import React from "react";
 import SpeakerImg from "./../../../public/images/speakers/speaker.png";
 import Image from "next/image";
 
+import Anupriya from "./../../../public/anupriya_microsoft.png";
+import Dr1 from "./../../../public/Dr 1.png";
+import Dr2 from "./../../../public/Dr 2.png";
+import Ganesan from "./../../../public/Ganesan Narayanasamy 1.png";
+
 const data = [
   {
     id: 1,
-    image: "image1.jpg",
-    name: "John Doe",
-    department: "Information Technology",
-    college: "ABC University",
+    image: Dr1,
+    name: "Dr. Zvi Galil",
+    department: "Professor and Dean, College of Computing",
+    college: "Georgia Institute of Technology, Atlanta, USA",
   },
   {
     id: 2,
-    image: "image2.jpg",
-    name: "Jane Smith",
-    department: "Communication Engineering",
-    college: "XYZ University",
+    image: Dr2,
+    name: "Dr. Biju Issac",
+    department: "Department of Computer &amp; Information Sciences",
+    college: "Northumbria University,NewCastle, UK",
   },
   {
     id: 3,
-    image: "image2.jpg",
-    name: "Jane Smith",
-    department: "Communication Engineering",
-    college: "XYZ University",
+    image: Ganesan,
+    name: "Ganesan Narayanasamy",
+    department: "Senior Technical Computing Solution Manager",
+    college: "IBM, USA",
   },
   {
     id: 4,
-    image: "image2.jpg",
-    name: "Jane Smith",
-    department: "Communication Engineering",
-    college: "XYZ University",
+    image: Anupriya,
+    name: "Anupriya Singh",
+    department: "",
+    college: "Microsoft",
   },
   {
     id: 5,
-    image: "image2.jpg",
-    name: "Jane Smith",
-    department: "Communication Engineering",
-    college: "XYZ University",
-  },
-  {
-    id: 6,
-    image: "image2.jpg",
-    name: "Jane Smith",
-    department: "Communication Engineering",
-    college: "XYZ University",
-  },
+    image: SpeakerImg,
+    name: "Dr. Srinivas Talabattula",
+    department: "Dept. Of Electrical Communication Engineering",
+    college: "Indian Institute of Science, Bangalore"
+  }
 ];
 
 const SpeakerGrid = () => {
@@ -55,11 +53,11 @@ const SpeakerGrid = () => {
           key={item.id}
           className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center"
         >
-          <Image src={SpeakerImg} alt={item.name} className="w-64" />
+          <Image src={item.image} alt={item.name} className="w-64"/>
           <div className="pt-8 pb-4">
             <h2 className="text-4xl font-semibold">{item.name}</h2>
             <p className="text-xl py-3">{item.department}</p>
-            <p className="italic">{item.college}</p>
+            <p className="text-2xl">{item.college}</p>
           </div>
         </div>
       ))}

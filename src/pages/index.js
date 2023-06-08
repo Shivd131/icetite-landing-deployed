@@ -2,16 +2,7 @@ import Navbar from "./../components/navbar/navBar.jsx";
 import BottomNavbar from "./../components/bottomNavbar/bottomNavbar.jsx";
 import { Hero, GridOfButtons } from "./../components/index/_index.js";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-
-import Img from "./../../public/images/vit.png";
-
-import Ieecs from "./../../public/icons/ieeecs.png";
-import Itslogo from "./../../public/icons/itslogo.png";
-import Acm from "./../../public/icons/acm.png";
-import IeeeMad from "./../../public/icons/ieeemad.png";
-import IeeeMadras from "./../../public/icons/ieeemadras.png";
-import Bi from "./../../public/icons/bi.png";
+import { useState } from "react";
 
 import Conf1 from "./../../public/images/index/conference1.png";
 import Conf2 from "./../../public/images/index/conference2.png";
@@ -25,6 +16,7 @@ export default function Home() {
   const [shouldClip, setShouldClip] = useState(true);
 
   const buttonItems = [
+    "PAPER SUBMISSION LINK",
     "IEEE ic-ETITE'24 Final Paper Template",
     "General Information For Registered Authors",
     "Instructions For Paper Presentation",
@@ -33,7 +25,7 @@ export default function Home() {
     "Camera Ready Paper Submission",
     "Registration For Indian Authors/Participants",
     "Registration For Foreign Authors/Participants",
-    "SUBMISSION LINK",
+
   ];
 
   return (
@@ -55,7 +47,7 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl font-bold">About IC-ETITE</h1>
           </div>
           <div className="py-8 px-16">
-            <p className="text-lg sm:text-xl">
+            <p className="text-lg sm:text-xl tracking-wide">
               The purpose of this conference is to enhance the research in
               Information Technology, Computer Engineering, Communication
               Engineering, Electronics Engineering and to afford an
@@ -97,12 +89,12 @@ export default function Home() {
           }}
         >
           <div className="text-[#DE6D1B] pt-8 px-16">
-            <h1 className="text-3xl sm:text-4xl font-bold">
+            <h1 className="text-3xl sm:text-4xl font-bold ">
               Theme of the Conference
             </h1>
           </div>
           <div className="p-8 px-16">
-            <p className="text-lg sm:text-xl">
+            <p className="text-lg sm:text-xl tracking-wide">
               ic-ETITE’24 expresses the importance of upgrading the research in
               Information Technology and Engineering. It motivates to provide a
               worldwide platform to researchers far and widespread by exploring
@@ -159,10 +151,12 @@ export default function Home() {
               the IEEE.
             </p>
             <p className="text-lg sm:text-xl mr-10">
-              <span>Proceedings </span>
+              <a href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding" className="text-blue-700 font-bold">
+                ic-ETITE'20 Proceedings
+              </a>
             </p>
             <p className="text-lg sm:text-xl">
-              Electronic ISBN:978-1-7281-4142-8
+              IEEE Xplore ISBN:978-1-7281-4142-8
             </p>
             <p className="text-lg sm:text-xl">USB ISBN:978-1-7281-4141-1</p>
             <p className="text-lg sm:text-xl">
@@ -312,27 +306,11 @@ export default function Home() {
           Manuscript Submission
         </h3>
         <p className="text-xl py-3">
-          The papers should be submitted through link provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
+          The papers should be submitted through <a className="text-blue-800 font-bold" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024">link</a> provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
         </p>
       </div>
 
-      <div className="flex flex-col items-center text-black font-bold pt-20 text-4xl mx-8 md:mx-24 lg:mx-48">
-        <h3>TECHNICAL CO-SPONSORS</h3>
-        <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
-          <Image src={Acm} alt="" />
-          <Image src={Itslogo} alt="" />
-          <Image src={Ieecs} alt="" />
-          <Image src={IeeeMad} alt=""/>
-          <Image src={Bi} alt=""/>
-        </div>
-      </div>
 
-      <div className="flex flex-col items-center text-black font-bold pt-10 text-4xl mx-8 md:mx-24 lg:mx-48">
-        <h3>SUPPORTED BY</h3>
-        <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
-          <Image src={IeeeMadras} alt="" />
-        </div>
-      </div>
 
       <style jsx>{`
         @media (max-width: 640px) {

@@ -6,9 +6,33 @@ import Linkedin from "./../../../public/icons/linkedin.svg";
 import Facebook from "./../../../public/icons/facebook.svg";
 import Email from "./../../../public/icons/email.svg";
 import Image from "next/image";
+import IeeeMadras from "../../../public/icons/ieeemadras.png";
+import Acm from "../../../public/icons/acm.png";
+import Itslogo from "../../../public/icons/itslogo.png";
+import Ieecs from "../../../public/icons/ieeecs.png";
+import IeeeMad from "../../../public/icons/ieeemad.png";
 
 const BottomNavbar = () => {
   return (
+      <>
+
+        <div className="flex flex-col items-center text-black font-bold pt-10 text-4xl mx-8 md:mx-24 lg:mx-48">
+          <h3>TECHNICAL CO-SPONSOR</h3>
+          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
+            <Image src={IeeeMadras} alt="" className="h-32 w-auto"/>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center text-black font-bold pt-20 text-4xl mx-8 md:mx-24 lg:mx-48">
+          <h3>SUPPORTED BY</h3>
+          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
+            <Image src={Acm} alt="" />
+            <Image src={Itslogo} alt="" />
+            <Image src={Ieecs} alt="" />
+            <Image src={IeeeMad} alt=""/>
+          </div>
+        </div>
+
     <div className="px-20 bg-[#111042] text-white py-10">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
         <div className="flex flex-col items-center w-full md:w-1/4 lg:w-1/4">
@@ -31,16 +55,22 @@ const BottomNavbar = () => {
         </div>
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center md:text-left lg:text-left py-5 md:py-0 lg:py-0">
           <h1 className="text-lg md:text-xl lg:text-3xl py-5">
-            Download Brochure
+            Download Sponsorship Brochure
           </h1>
           <div className="py-2"></div>
           <div className="py-5">
+            <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing">
+
+
             <h1 className="text-lg md:text-xl lg:text-3xl">Download MHA </h1>
             <h1 className="text-lg md:text-xl lg:text-3xl">INDIA, NOC</h1>
+            </a>
           </div>
         </div>
       </div>
+
     </div>
+      </>
   );
 };
 

@@ -22,17 +22,16 @@ const heroSection = () => {
           All presented papers in the conference will be submitted to IEEE for
           possible publication in the IEEE Xplore® digital library.
         </p>
+          <p className="font-bold text-orange-600 text-2xl">IEEE Xplore ISBN: 979-8-3503-2820-2 </p>
+          <p className="font-bold text-orange-600 text-2xl"> USB ISBN: 979-8-3503-2819-6</p>
         <p className="text-xl md:text-2xl lg:text-2xl my-6">
           Extended version of selected papers will be recommended for
           publication in Scopus indexed journals.
         </p>
         <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-5 lg:space-x-5 py-3 space-y-4 md:space-y-0 lg:space-y-0 ">
-          <button className="border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96">
+          <a className="border-2 border-white bg-transparent hover:bg-white text-center text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96" href="https://cmt3.research.microsoft.com/icETITE2024">
             Submission Link
-          </button>
-          <button className="border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96">
-            Email
-          </button>
+          </a>
         </div>
       </div>
     </div>

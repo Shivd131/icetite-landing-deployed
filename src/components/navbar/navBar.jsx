@@ -6,6 +6,7 @@ import Icetite from "./../../../public/icons/icetite.png";
 import Bolt from "./../../../public/icons/bolt.svg";
 import Vit from "./../../../public/icons/vit.png";
 import DownArrow from "./../../../public/icons/downarrow.svg";
+import Ieeenav from "./../../../public/icons/ieeemadras.png";
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -135,15 +136,21 @@ const Navbar = () => {
         <Image src={Icetite} alt="" className="h-20 w-52 -translate-x-10" />
         </a>
         {!isTabletOrMobile && (
-            <a href="/bolt">
-          <Image src={Bolt} alt="" className="h-20 -translate-x-10" />
-            </a>
+            <>
+              <a href="/bolt">
+                <Image src={Bolt} alt="" className="h-20 -translate-x-10" />
+              </a>
+              <a href="/">
+                <Image src={Ieeenav} alt="" className="h-20 w-52 -translate-x-10" />
+              </a>
+            </>
         )}
       </div>
       {isMobile ? (
         <button onClick={() => setShowMobileMenu(!showMobileMenu)}>☰</button>
       ) : (
         <div className="flex flex-row items-center justify-center space-x-10 text-lg md:text-xl lg:text-2xl">
+
           <a href="/">Home</a>
           <div
             className="relative group"
@@ -203,8 +210,10 @@ const Navbar = () => {
               </a>
             </motion.div>
           </div>
+          <a href="/">Expo'24</a>
           <a href="/visa">Visa</a>
           <a href="/contact">Contact</a>
+
         </div>
       )}
 

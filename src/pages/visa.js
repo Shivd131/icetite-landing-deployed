@@ -64,7 +64,7 @@ const Visa = () => {
 
         <p className="text-[#111042] text-lg py-10">
           For More details please Contact our Event Organizers:
-          icetiteconference@gmail.com
+          icetiteconference@vit.ac.in
         </p>
       </div>
       <BottomNavbar />

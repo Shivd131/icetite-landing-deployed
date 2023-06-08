@@ -14,7 +14,8 @@ const Committee = () => {
   const renderContent = () => {
     if (selectedButton === "Information Technology") {
       return (
-          <div className="bg-orange flex flex-col items-center w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
+          <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
+              <p className="font-bold text-3xl text-orange-600">Technical Programme Committee</p>
               <p>Dr. Priya. M, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Chiranji Lal Chowdhary, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Gitanjali. J, Associate Professor, SITE, VIT, Vellore</p>
@@ -22,6 +23,7 @@ const Committee = () => {
               <p>Dr. Vellingiri. J, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Charanya. R, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Tamil Priya. D, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl  text-orange-600">Executive Committee</p>
               <p>Dr. Ajit Kumar Santra, Senior Professor, SITE, VIT, Vellore</p>
               <p>Dr. Balakrushna Tripathy, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Ganesan K, Professor, SITE, VIT, Vellore</p>
@@ -34,6 +36,7 @@ const Committee = () => {
               <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
               <p>Dr. Parimala. M, HOD/SC, SITE, VIT, Vellore</p>
               <p>Dr. Vanitha. M, HOD/CA, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Program Committee</p>
               <p>Dr. Naveneethan. C, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Selva Rani. B, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Deepa. M, Associate Professor, SITE, VIT, Vellore</p>
@@ -43,7 +46,7 @@ const Committee = () => {
               <p>Dr. Kumaresan. P , Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Santhi. K, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Gayathri. A, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Magesh. G, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Conference Coordinating Committee</p>
               <p>Dr. Thanapal. P, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Hemalatha. S, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Kamalakannan. J, Associate Professor, SITE, VIT, Vellore</p>
@@ -58,11 +61,14 @@ const Committee = () => {
               <p>Dr. Santhosh Kumar. S. V. N, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Sweta Bhattacharya, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Ramya. G, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Publicity Committee</p>
               <p>Dr. Sumangali. K, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Asha. N, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">BOLT Hackathon</p>
               <p>Dr. Prabhavathy. P, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Karthikeyan. J, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Brijendra Singh, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl  text-orange-600">Sponsorship Committee</p>
               <p>Dr. Iyapparaja. M, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Praveen Kumar Reddy, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Siva Rama Krishnan S, Assistant Professor, SITE, VIT, Vellore</p>
@@ -70,7 +76,7 @@ const Committee = () => {
       );
     } else if (selectedButton === "Communication Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
+        <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
           <p>Dr. Dave Cliff, Department of Computer Science, University of Bristol, UK</p>
           <p>Dr. Rafidah Md Noor, Faculty of Computer Science and Information Technology, Universiti Malaya, Malaysia</p>
           <p>Dr. Mohamad Nizam Ayub, Universiti Malaya, Malaysia</p>
@@ -116,7 +122,7 @@ const Committee = () => {
       );
     } else if (selectedButton === "Computer Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full md:w-full lg:w-full text-white bg-[#111042] space-y-5 py-10 px-10  rounded-md">
+        <div className="bg-orange flex flex-col items-start w-full md:w-full lg:w-full text-white bg-[#111042] space-y-5 py-10 px-10  rounded-md">
           <p>Dr. K. Porkumaran, Chairman, IEEE Madras Section</p>
           <p>Dr. P. Sakthivel, Chairman, ACM Chennai Chapter</p>
           <p>Dr. R. Hariprakash, Secretary, IEEE Madras Section</p>
@@ -168,7 +174,7 @@ const Committee = () => {
       );
     } else if (selectedButton === "Electronics Engineering") {
       return (
-        <div className="bg-orange flex flex-col items-center w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
+        <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
           <p>Dr. R. Manimegalai, Professor, Dept. of CSE, PSG Institute of Technology and Applied Research, Coimbatore</p>
           <p>Dr. V. Balamurugan, Professor, Dept. of CSE, Manonmanian Sundaranar University, Tirunelveli</p>
           <p>Dr. E. Sivasankar, Dept. of Computer Science & Engineering, National Institute of Technology, Trichy</p>
@@ -194,7 +200,17 @@ const Committee = () => {
           <p>Dr. R. Jayanthi, VIT, Chennai</p>
           <p>Dr. Suchitra, Professor, Dept. of Computer Science & Engineering, JAIN University, Bangalore</p>
         </div>
-      );
+      )
+    } else if (selectedButton === "Student Committee"){
+        return (
+            <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
+                <p>Ayushi Prasad</p>
+                <p>Souvik Mukherjee</p>
+                <p>Jai Munjal</p>
+                <p>Sourav Dhanania</p>
+                <p>Namit Dessapanwar</p>
+            </div>
+        )
     }
     return null;
   };
@@ -235,7 +251,7 @@ const Committee = () => {
               Chancellor, VIT
             </p>
             <p className="text-xl">
-              <span className="font-bold">Dr. Partha Sharathi Mallick,</span>
+              <span className="font-bold">Dr. Partha Sharathi Mallick, </span>
               Pro-Vice Chancellor, VIT, Vellore
             </p>
             <p className="text-xl">
@@ -290,15 +306,15 @@ const Committee = () => {
           Finance Chair
         </h1>
           <p className="text-xl">
-          <span className="font-bold">Dr. Partha Sharathi Mallick,</span>
-          Pro-Vice Chancellor, VIT, Vellore
+
+          <span className="font-bold">Dr. Gunasekaran G, </span>
+              Associate Professor, SITE, VIT, Vellore
         </p>
           <h1 className="text-3xl font-bold text-[#E15326] pt-10 pb-5">
           Finance Co-chair
         </h1>
           <p className="text-xl">
-          <span className="font-bold">Dr. Rambabu Kodali,</span> Vice -
-          Chancellor, VIT
+          <span className="font-bold">Dr. Prasanna. S,</span> Associate Professor, SITE, VIT, Vellore
         </p>
         </div>
         </div>
@@ -311,7 +327,7 @@ const Committee = () => {
             } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
             onClick={() => handleClick("Information Technology")}
           >
-            Organizing Chair
+            Organizing Committee
           </button>
           <button
             className={`px-10 py-10 ${
@@ -343,6 +359,16 @@ const Committee = () => {
           >
             Technical Committee
           </button>
+            <button
+                className={`px-10 py-10 ${
+                    selectedButton === "Electronics Engineering"
+                        ? "bg-[#111042] text-white"
+                        : "bg-[#46C6ED] text-black"
+                } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                onClick={() => handleClick("Student Committee")}
+            >
+                Student Committee
+            </button>
         </div>
         <div className="flex flex-col items-center mb-10 text-2xl">
           {renderContent()}

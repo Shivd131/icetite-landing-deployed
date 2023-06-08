@@ -87,10 +87,10 @@ const Icetite20 = () => {
         <h1 className="text-3xl font-bold text-[#111042] pt-20 pb-10">
           Proceedings Link
         </h1>
-        <p className="text-xl pb-20">
-          Proceedings
+        <a className="text-xl pb-20" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
+          IEEE Xplore Proceeding
           (https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding)
-        </p>
+        </a>
       </div>
       <BottomNavbar />
     </div>
