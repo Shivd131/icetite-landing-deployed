@@ -53,11 +53,11 @@ const SpeakerGrid = () => {
           key={item.id}
           className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center"
         >
-          <Image src={item.image} alt={item.name} className="w-64"/>
+          <Image src={item.image} alt={item.name} className="w-60"/>
           <div className="pt-8 pb-4">
-            <h2 className="text-4xl font-semibold">{item.name}</h2>
-            <p className="text-xl py-3">{item.department}</p>
-            <p className="text-2xl">{item.college}</p>
+            <h2 className="text-3xl font-semibold">{item.name}</h2>
+            <p className="text-lg py-3">{item.department}</p>
+            <p className="text-xl">{item.college}</p>
           </div>
         </div>
       ))}

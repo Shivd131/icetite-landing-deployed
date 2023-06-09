@@ -36,7 +36,7 @@ const Icetite20 = () => {
     <div>
       <Navbar />
       <div className="mx-10 md:mx-20 lg:mx-20">
-        <h1 className="text-5xl font-bold text-[#E15326] pt-20 pb-10">
+        <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-10">
           About ic-ETITE'20
         </h1>
         <p className="text-xl">
