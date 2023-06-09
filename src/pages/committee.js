@@ -224,11 +224,12 @@ const Committee = () => {
     } else if (selectedButton === "Student Committee"){
         return (
             <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
-                <p>Ayushi Prasad</p>
-                <p>Souvik Mukherjee</p>
-                <p>Jai Munjal</p>
-                <p>Sourav Dhanania</p>
-                <p>Namit Dessapanwar</p>
+                <p>Ms. Ayushi Prasad</p>
+                <p>Mr. Souvik Mukherjee</p>
+                <p>Mr. Jai Munjal</p>
+                <p>Mr. Sourav Dhanania</p>
+                <p>Mr. Namit Dessapanwar</p>
+                <p>Mr. Lohith Pattubala</p>
             </div>
         )
     }
