@@ -16,14 +16,14 @@ const BottomNavbar = () => {
   return (
       <>
 
-        <div className="flex flex-col items-center text-black font-bold pt-10 text-4xl mx-8 md:mx-24 lg:mx-48">
+        <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
           <h3>TECHNICAL CO-SPONSOR</h3>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
             <Image src={IeeeMadras} alt="" className="h-32 w-auto"/>
           </div>
         </div>
 
-        <div className="flex flex-col items-center text-black font-bold pt-20 text-4xl mx-8 md:mx-24 lg:mx-48">
+        <div className="flex flex-col items-center text-black font-bold pt-20 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
           <h3>SUPPORTED BY</h3>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
             <Image src={Acm} alt="" />

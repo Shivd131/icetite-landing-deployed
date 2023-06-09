@@ -52,9 +52,9 @@ const SpeakerGrid = () => {
       {data.map((item) => (
         <div
           key={item.id}
-          className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center"
+          className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center rounded-3xl"
         >
-          <Image src={item.image} alt={item.name} className="w-60"/>
+          <Image src={item.image} alt={item.name} className="w-60 rounded-3xl"/>
           <div className="pt-8 pb-4">
             <h2 className="text-3xl font-semibold">{item.name}</h2>
             <p className="text-lg py-3">{item.department}</p>

@@ -15,7 +15,7 @@ const heroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
       <div className="absolute top-0 left-0 p-5 z-30 text-white mx-16 flex flex-col h-full justify-center w-[80vw] md:w-[70vw] lg:w-[50vw]">
-        <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">
+        <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold">
           Registration Guidelines for ic-ETITE'24
         </h1>
         <div className="py-16"></div>

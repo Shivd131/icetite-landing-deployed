@@ -307,7 +307,7 @@ export default function Home() {
           Manuscript Submission
         </h3>
         <p className="text-xl py-3">
-          The papers should be submitted through <a className="text-blue-800 font-bold" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024">link</a> provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
+          The papers should be submitted through <a className="text-blue-800 font-bold" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024">link</a> provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
         </p>
       </div>
 

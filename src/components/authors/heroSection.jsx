@@ -15,16 +15,16 @@ const heroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
       <div className="absolute top-0 left-0 p-5 z-30 text-white mx-16 flex flex-col h-full justify-center w-[80vw] md:w-[70vw] lg:w-[50vw]">
-        <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">
+        <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold">
           Paper Submission
         </h1>
-        <p className="text-2xl md:text-3xl lg:text-3xl my-6">
+        <p className="text-2xl md:text-2xl lg:text-2xl my-6">
           All presented papers in the conference will be submitted to IEEE for
           possible publication in the IEEE Xplore® digital library.
         </p>
-          <p className="font-bold text-orange-600 text-2xl">IEEE Xplore ISBN: 979-8-3503-2820-2 </p>
-          <p className="font-bold text-orange-600 text-2xl"> USB ISBN: 979-8-3503-2819-6</p>
-        <p className="text-xl md:text-2xl lg:text-2xl my-6">
+          <p className="font-bold text-orange-600 text-xl">IEEE Xplore ISBN: 979-8-3503-2820-2 </p>
+          <p className="font-bold text-orange-600 text-xl"> USB ISBN: 979-8-3503-2819-6</p>
+        <p className="text-xl md:text-2xl lg:text-xl my-6">
           Extended version of selected papers will be recommended for
           publication in Scopus indexed journals.
         </p>
