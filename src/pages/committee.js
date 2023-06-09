@@ -16,6 +16,7 @@ const Committee = () => {
       return (
           <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
               <p className="font-bold text-3xl text-orange-600">Technical Programme Committee</p>
+
               <p>Dr. Priya. M, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Chiranji Lal Chowdhary, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Gitanjali. J, Associate Professor, SITE, VIT, Vellore</p>
@@ -23,7 +24,12 @@ const Committee = () => {
               <p>Dr. Vellingiri. J, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Charanya. R, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Tamil Priya. D, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Mohana Priya. P, Assistant Professor, SITE, VIT, Vellore</p>
               <p className="font-bold text-3xl  text-orange-600">Executive Committee</p>
+              <p>Dr. Shantharajah. S. P, HOD/SSE, SITE, VIT, Vellore</p>
+              <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
+              <p>Dr. Parimala. M, HOD/SC, SITE, VIT, Vellore</p>
+              <p>Dr. Vanitha. M, HOD/CA, SITE, VIT, Vellore</p>
               <p>Dr. Ajit Kumar Santra, Senior Professor, SITE, VIT, Vellore</p>
               <p>Dr. Balakrushna Tripathy, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Ganesan K, Professor, SITE, VIT, Vellore</p>
@@ -41,11 +47,19 @@ const Committee = () => {
               <p>Dr. Selva Rani. B, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Deepa. M, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Angulakshmi. M, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Vivekananda. G. N, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Kalaivani. S, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Rathi. R, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Kumaresan. P , Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Santhi. K, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Gayathri. A, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Magesh. G, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Balasubramani. M, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Karthikeyan. D, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Arun Kumar. A, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr.Senthil Kumar. T, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Bhuvaneswari. M. S, Assistant Professor, SITE, VIT, Vellore</p>
+
               <p className="font-bold text-3xl text-orange-600">Conference Coordinating Committee</p>
               <p>Dr. Thanapal. P, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Hemalatha. S, Associate Professor, SITE, VIT, Vellore</p>
@@ -61,6 +75,11 @@ const Committee = () => {
               <p>Dr. Santhosh Kumar. S. V. N, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Sweta Bhattacharya, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Ramya. G, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Rajkumar. M, Assistant Professor, SITE, VIT, Vellore</p>
+                  <p>Dr. Anbarasa Kumar. A, Assistant Professor, SITE, VIT, Vellore</p>
+                  <p>Dr. Mohanraj. G, Assistant Professor, SITE, VIT, Vellore</p>
+                  <p>Dr. Jagannathan. J, Assistant Professor, SITE, VIT, Vellore</p>
+                  <p>Dr. Bala Ganesh. N, Assistant Professor, SITE, VIT, Vellore</p>
               <p className="font-bold text-3xl text-orange-600">Publicity Committee</p>
               <p>Dr. Sumangali. K, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Asha. N, Assistant Professor, SITE, VIT, Vellore</p>
@@ -68,6 +87,12 @@ const Committee = () => {
               <p>Dr. Prabhavathy. P, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Karthikeyan. J, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Brijendra Singh, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Jothish Kumar, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Expo’24 Committee</p>
+              <p>Dr. Raghavan. R, Associate Professor, SITE, VIT, Vellore</p>
+                  <p>Dr. Thanga Mariappan. L, Assistant Professor, SITE, VIT, Vellore</p>
+                      <p>Dr. Arun Pandian. J, Assistant Professor, SITE, VIT, Vellore</p>
+                          <p>Dr. Jerart Julus. L, Assistant Professor, SITE, VIT, Vellore</p>
               <p className="font-bold text-3xl  text-orange-600">Sponsorship Committee</p>
               <p>Dr. Iyapparaja. M, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Praveen Kumar Reddy, Associate Professor, SITE, VIT, Vellore</p>
