@@ -241,7 +241,7 @@ const Committee = () => {
     <div>
       <Navbar />
 
-      <div className="mx-20">
+      <div className="mx-4 md:mx-20 lg:mx-20">
         <h1 className="text-5xl font-bold text-[#E15326] pt-20 pb-10">
           Organizing Committee
         </h1>
