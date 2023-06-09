@@ -15,16 +15,6 @@ const Committee = () => {
     if (selectedButton === "Information Technology") {
       return (
           <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
-              <p className="font-bold text-3xl text-orange-600">Technical Programme Committee</p>
-
-              <p>Dr. Priya. M, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Chiranji Lal Chowdhary, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Gitanjali. J, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Krithika. L. B, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Vellingiri. J, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Charanya. R, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Tamil Priya. D, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Mohana Priya. P, Assistant Professor, SITE, VIT, Vellore</p>
               <p className="font-bold text-3xl  text-orange-600">Executive Committee</p>
               <p>Dr. Shantharajah. S. P, HOD/SSE, SITE, VIT, Vellore</p>
               <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
@@ -38,10 +28,15 @@ const Committee = () => {
               <p>Dr. Valarmathi. B, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Neelu Khare, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Durai Raj Vincent P. M, Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Shantharajah. S. P, HOD/SSE, SITE, VIT, Vellore</p>
-              <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
-              <p>Dr. Parimala. M, HOD/SC, SITE, VIT, Vellore</p>
-              <p>Dr. Vanitha. M, HOD/CA, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Technical Programme Committee</p>
+              <p>Dr. Priya. M, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Chiranji Lal Chowdhary, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Gitanjali. J, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Krithika. L. B, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Vellingiri. J, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Charanya. R, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Tamil Priya. D, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Mohana Priya. P, Assistant Professor, SITE, VIT, Vellore</p>
               <p className="font-bold text-3xl text-orange-600">Program Committee</p>
               <p>Dr. Naveneethan. C, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Selva Rani. B, Associate Professor, SITE, VIT, Vellore</p>
@@ -268,7 +263,7 @@ const Committee = () => {
               President, VIT{" "}
             </p>
             <p className="text-xl">
-              <span className="font-bold">Mr. G.V. Selvam,</span> Vice President,
+              <span className="font-bold">Dr. G.V. Selvam,</span> Vice President,
               VIT
             </p>
             <p className="text-xl">
