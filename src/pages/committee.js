@@ -15,7 +15,7 @@ const Committee = () => {
     if (selectedButton === "Information Technology") {
       return (
           <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-5 py-10 px-10 rounded-md">
-              <p className="font-bold text-3xl  text-orange-600">Executive Committee</p>
+              <p className="font-bold text-3xl text-orange-600">Executive Committee</p>
               <p>Dr. Shantharajah. S. P, HOD/SSE, SITE, VIT, Vellore</p>
               <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
               <p>Dr. Parimala. M, HOD/SC, SITE, VIT, Vellore</p>
@@ -28,6 +28,20 @@ const Committee = () => {
               <p>Dr. Valarmathi. B, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Neelu Khare, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Durai Raj Vincent P. M, Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Publicity Committee</p>
+              <p>Dr. Sumangali. K, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Asha. N, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">BOLT Hackathon</p>
+              <p>Dr. Prabhavathy. P, Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Karthikeyan. J, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Brijendra Singh, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Jothish Kumar, Assistant Professor, SITE, VIT, Vellore</p>
+              <p className="font-bold text-3xl text-orange-600">Expo’24 Committee</p>
+              <p>Dr. Raghavan. R, Associate Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Thanga Mariappan. L, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Arun Pandian. J, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Jerart Julus. L, Assistant Professor, SITE, VIT, Vellore</p>
+
               <p className="font-bold text-3xl text-orange-600">Technical Programme Committee</p>
               <p>Dr. Priya. M, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Chiranji Lal Chowdhary, Associate Professor, SITE, VIT, Vellore</p>
@@ -75,20 +89,7 @@ const Committee = () => {
                   <p>Dr. Mohanraj. G, Assistant Professor, SITE, VIT, Vellore</p>
                   <p>Dr. Jagannathan. J, Assistant Professor, SITE, VIT, Vellore</p>
                   <p>Dr. Bala Ganesh. N, Assistant Professor, SITE, VIT, Vellore</p>
-              <p className="font-bold text-3xl text-orange-600">Publicity Committee</p>
-              <p>Dr. Sumangali. K, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Asha. N, Assistant Professor, SITE, VIT, Vellore</p>
-              <p className="font-bold text-3xl text-orange-600">BOLT Hackathon</p>
-              <p>Dr. Prabhavathy. P, Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Karthikeyan. J, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Brijendra Singh, Assistant Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Jothish Kumar, Assistant Professor, SITE, VIT, Vellore</p>
-              <p className="font-bold text-3xl text-orange-600">Expo’24 Committee</p>
-              <p>Dr. Raghavan. R, Associate Professor, SITE, VIT, Vellore</p>
-                  <p>Dr. Thanga Mariappan. L, Assistant Professor, SITE, VIT, Vellore</p>
-                      <p>Dr. Arun Pandian. J, Assistant Professor, SITE, VIT, Vellore</p>
-                          <p>Dr. Jerart Julus. L, Assistant Professor, SITE, VIT, Vellore</p>
-              <p className="font-bold text-3xl  text-orange-600">Sponsorship Committee</p>
+             <p className="font-bold text-3xl  text-orange-600">Sponsorship Committee</p>
               <p>Dr. Iyapparaja. M, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Praveen Kumar Reddy, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Siva Rama Krishnan S, Assistant Professor, SITE, VIT, Vellore</p>
@@ -382,7 +383,7 @@ const Committee = () => {
           </button>
             <button
                 className={`px-10 py-10 ${
-                    selectedButton === "Electronics Engineering"
+                    selectedButton === "Student Committee"
                         ? "bg-[#111042] text-white"
                         : "bg-[#46C6ED] text-black"
                 } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}

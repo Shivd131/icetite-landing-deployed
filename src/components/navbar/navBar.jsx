@@ -7,6 +7,7 @@ import Bolt from "./../../../public/icons/bolt.svg";
 import Vit from "./../../../public/icons/vit.png";
 import DownArrow from "./../../../public/icons/downarrow.svg";
 import Ieeenav from "./../../../public/icons/ieeemadras.png";
+import Ieee from "./../../../public/icons/ieeemain.png";
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -140,9 +141,6 @@ const Navbar = () => {
               <a href="/bolt">
                 <Image src={Bolt} alt="" className="h-20 -translate-x-10" />
               </a>
-              <a href="/">
-                <Image src={Ieeenav} alt="" className="h-20 w-52 -translate-x-10" />
-              </a>
             </>
         )}
       </div>
@@ -218,7 +216,10 @@ const Navbar = () => {
       )}
 
       {!isTabletOrMobile && (
-        <div>
+        <div className="flex flex-row items-center justify-between">
+          <a href="/">
+            <Image src={Ieee} alt="" className="h-20 w-52 -translate-x-10" />
+          </a>
           <a href="https://vit.ac.in">
             <Image src={Vit} alt="" className="translate-x-5" />
           </a>

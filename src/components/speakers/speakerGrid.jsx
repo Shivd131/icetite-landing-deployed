@@ -19,7 +19,7 @@ const data = [
     id: 2,
     image: Dr2,
     name: "Dr. Biju Issac",
-    department: "Department of Computer &amp; Information Sciences",
+    department: "Department of Computer, Information Sciences",
     college: "Northumbria University,NewCastle, UK",
   },
   {
@@ -47,6 +47,7 @@ const data = [
 
 const SpeakerGrid = () => {
   return (
+      <>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-between pb-20">
       {data.map((item) => (
         <div
@@ -61,8 +62,11 @@ const SpeakerGrid = () => {
           </div>
         </div>
       ))}
+
     </div>
-  );
+  <p className="text-2xl text-[#ea0763] flex flex-col items-center pb-10 font-bold">and many more...</p>
+      </>
+        );
 };
 
 export default SpeakerGrid;

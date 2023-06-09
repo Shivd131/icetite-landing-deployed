@@ -12,6 +12,8 @@ import Gal1 from "./../../public/images/index/img1.png";
 import Gal2 from "./../../public/images/index/img2.png";
 import Gal3 from "./../../public/images/index/img3.png";
 
+
+
 export default function Home() {
   const [shouldClip, setShouldClip] = useState(true);
 
@@ -25,7 +27,6 @@ export default function Home() {
     "Camera Ready Paper Submission",
     "Registration For Indian Authors/Participants",
     "Registration For Foreign Authors/Participants",
-
   ];
 
   return (

@@ -35,7 +35,7 @@ const Visa = () => {
           application for e-Visa can be made 120 days in advance of the actual
           arrival date in India. However, applications are to be made minimum 4
           days in advance of the date of arrival. For details and applying for
-          e-Visa, please visit: https://indianvisaonline.gov.in/evisa/tvoa.html
+          e-Visa, please visit: <a href="https://indianvisaonline.gov.in/evisa/tvoa.html" target="_blank">here</a>
         </p>
 
         <h1 className="text-4xl font-bold text-[#111042] pt-20 pb-10">
@@ -46,7 +46,8 @@ const Visa = () => {
           application link. Delegates from Countries/Territories not listed
           under the e-Visa scheme must apply for regular visa only.For details
           and applying for regular visa please visit:
-          https://indianvisaonline.gov.in/visa/index.html
+          <a href="https://indianvisaonline.gov.in/visa/index.html" target="_blank">here</a>
+
         </p>
 
         <h1 className="text-3xl font-extrabold text-[#111042] pt-20 pb-5">

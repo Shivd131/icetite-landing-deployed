@@ -89,7 +89,7 @@ const Icetite20 = () => {
         </h1>
         <a className="text-xl pb-20" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
           IEEE Xplore Proceeding
-          (https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding)
+          (link)
         </a>
       </div>
       <BottomNavbar />
