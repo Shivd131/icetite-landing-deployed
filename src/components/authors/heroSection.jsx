@@ -6,7 +6,7 @@ import IeeeNav from "../../../public/icons/ieeemadras.png";
 
 const heroSection = () => {
   return (
-    <div className="relative h-[70vh] bg-cover z-0">
+    <div className="relative h-[85vh] md:h-[90vh] bg-cover z-0">
       <Image
         src={BgImage}
         alt="Background Image"
@@ -16,11 +16,11 @@ const heroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
       <div className="absolute top-0 left-0 p-5 z-30 text-white mx-16 flex flex-col h-full justify-center w-[80vw] md:w-[70vw] lg:w-[50vw]">
-        <Image src={IeeeNav} className="pb-10"/>
-        <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold">
+        <Image src={IeeeNav} className="pb-5 w-40 h-auto"/>
+        <h1 className="text-2xl md:text-3xl lg:text-3xl font-bold">
           Paper Submission
         </h1>
-        <p className="text-2xl md:text-2xl lg:text-2xl my-6">
+        <p className="text-xl md:text-2xl lg:text-2xl my-6">
           All presented papers in the conference will be submitted to IEEE for
           possible publication in the IEEE Xplore® digital library.
         </p>

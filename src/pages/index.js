@@ -2,7 +2,7 @@ import Navbar from "./../components/navbar/navBar.jsx";
 import BottomNavbar from "./../components/bottomNavbar/bottomNavbar.jsx";
 import { Hero, GridOfButtons } from "./../components/index/_index.js";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Conf1 from "./../../public/images/index/conference1.png";
 import Conf2 from "./../../public/images/index/conference2.png";
@@ -28,6 +28,25 @@ export default function Home() {
     "Registration For Indian Authors/Participants",
     "Registration For Foreign Authors/Participants",
   ];
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setShouldClip(false);
+      } else {
+        setShouldClip(true);
+      }
+    };
+
+    // Call handleResize initially and add event listener for window resize
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <main>
