@@ -7,7 +7,7 @@ import IeeeNav from "./../../../public/icons/ieeemadras.png";
 
 const heroSection = () => {
   return (
-    <div className="relative h-[70vh] md:h-[85vh] bg-cover z-0">
+    <div className="relative h-[70vh] md:h-[92vh] bg-cover z-0">
       <Image
         src={BgImage}
         alt="Background Image"
@@ -34,7 +34,7 @@ const heroSection = () => {
           February 22-23, 2024 at VIT Vellore, India
         </p>
       </div>
-        <a href="https://drive.google.com/file/d/1eTe-y8fu0JuGXsigayfIRHpdlYNhVzbG/view?usp=sharing" target="_blank" className="absolute right-10 bottom-10 border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all">
+        <a href="https://drive.google.com/file/d/1RSI6YmH6pByW6ni02QPxNXhzgvLe-DhK/view?usp=sharing" target="_blank" className="absolute right-10 bottom-10 border-2 border-white bg-transparent bg-white hover:bg-transparent hover:text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all">
         Download Brochure Now
       </a>
     </div>

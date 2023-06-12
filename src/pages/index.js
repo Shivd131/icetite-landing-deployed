@@ -49,7 +49,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="overflow-hidden">
       <Navbar />
       <Hero />
       <GridOfButtons items={buttonItems} />

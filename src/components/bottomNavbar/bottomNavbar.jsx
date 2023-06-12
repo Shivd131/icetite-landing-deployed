@@ -59,7 +59,7 @@ const BottomNavbar = () => {
           </h1>
           <div className="py-2"></div>
           <div className="py-5">
-            <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing" target="_blank">
 
 
             <h1 className="text-lg md:text-xl lg:text-xl">Download MHA </h1>
