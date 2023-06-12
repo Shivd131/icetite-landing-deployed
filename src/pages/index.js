@@ -127,16 +127,16 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[50vh] sm:w-auto">
+        <div className="w-full sm:w-auto">
           <Image
-            src={Conf2}
-            alt="Image"
-            className="h-full object-cover sm:clip-none"
-            style={{
-              clipPath: shouldClip
-                ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
-                : "none",
-            }}
+              src={Conf2}
+              alt="Image"
+              className="h-full object-cover sm:clip-none"
+              style={{
+                clipPath: shouldClip
+                    ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
+                    : "none",
+              }}
           />
         </div>
       </div>

@@ -23,9 +23,9 @@ const BottomNavbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
+        <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8  lg:mx-24">
           <h3>SUPPORTED BY</h3>
-          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
+          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between py-10 gap-y-12 w-[80vw] lg:w-[80vw]">
             <Image src={Acm} className="h-32 w-auto" alt=""/>
             <Image src={Itslogo} className="h-32 w-auto" alt=""/>
             <Image src={Ieecs} className="h-32 w-auto" alt=""/>
