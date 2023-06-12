@@ -131,7 +131,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="px-20 bg-[#111042] text-white py-2 flex flex-row items-center justify-between z-50">
+    <div className="px-20 bg-[#111042] text-white py-2 flex flex-row items-center text-xl justify-between z-50">
       <div className="flex flex-row space-x-5">
         <a href="/">
         <Image src={Icetite} alt="" className="h-20 w-52 -translate-x-10" />
@@ -218,10 +218,10 @@ const Navbar = () => {
       {!isTabletOrMobile && (
         <div className="flex flex-row items-center justify-between">
           <a href="/">
-            <Image src={Ieee} alt="" className="h-20 w-52 -translate-x-10" />
+            <Image src={Ieee} alt="" className="h-18 w-48 -translate-x-2" />
           </a>
           <a href="https://vit.ac.in">
-            <Image src={Vit} alt="" className="translate-x-5" />
+            <Image src={Vit} alt="" className="translate-x-5 h-10 w-auto" />
           </a>
 
         </div>

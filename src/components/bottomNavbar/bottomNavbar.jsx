@@ -19,17 +19,17 @@ const BottomNavbar = () => {
         <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
           <h3>TECHNICAL CO-SPONSOR</h3>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
-            <Image src={IeeeMadras} alt="" className="h-32 w-auto"/>
+            <Image src={IeeeMadras} alt="" className="h-24 w-auto"/>
           </div>
         </div>
 
-        <div className="flex flex-col items-center text-black font-bold pt-20 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
+        <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
           <h3>SUPPORTED BY</h3>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between w-full py-10 gap-y-12">
-            <Image src={Acm} alt="" />
-            <Image src={Itslogo} alt="" />
-            <Image src={Ieecs} alt="" />
-            <Image src={IeeeMad} alt=""/>
+            <Image src={Acm} className="h-32 w-auto" alt=""/>
+            <Image src={Itslogo} className="h-32 w-auto" alt=""/>
+            <Image src={Ieecs} className="h-32 w-auto" alt=""/>
+            <Image src={IeeeMad} className="h-32 w-auto" alt=""/>
           </div>
         </div>
 
