@@ -2,6 +2,7 @@ import React from "react";
 
 import Image from "next/image.js";
 import BgImage from "./../../../public/images/vit.png";
+import IeeeNav from "../../../public/icons/ieeemadras.png";
 
 const heroSection = () => {
   return (
@@ -24,6 +25,8 @@ const heroSection = () => {
             Click here to Register
           </button>
         </div>
+          <Image src={IeeeNav} className="absolute left-10 md:right-10 top-2 md:top-10 border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all"/>
+
       </div>
     </div>
   );
