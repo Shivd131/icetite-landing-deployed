@@ -58,69 +58,69 @@ const Navbar = () => {
         >
           <button
             onClick={() => setShowMobileMenu(false)}
-            className="absolute right-5 top-5 text-white text-2xl bg-transparent border-none outline-none"
+            className="absolute right-5 top-5 text-white text-xl bg-transparent border-none outline-none"
           >
             &#10005;
           </button>
           <div className="flex flex-col space-y-4 pt-20">
-            <a href="/" className="text-2xl text-white hover:text-gray-300">
+            <a href="/" className="text-xl text-white hover:text-gray-300">
               Home
             </a>
-            <a href="/bolt" className="text-2xl text-white hover:text-gray-300">
+            <a href="/bolt" className="text-xl text-white hover:text-gray-300">
               Bolt
             </a>
             <a
                 href="/registrations"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Registrations
             </a>
             <a
                 href="/speakers"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Speakers
             </a>
             <a
                 href="/committee"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Committee
             </a>
             <a
               href="/sponsorship"
-              className="text-2xl text-white hover:text-gray-300"
+              className="text-xl text-white hover:text-gray-300"
             >
               Sponsorship
             </a>
             <a
                 href="/authors"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Authors
             </a>
             <a
                 href="/sponsorship"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Sponsorship
             </a>
             <a
                 href="/icetite20"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Ic'ETITE-20
             </a>
             <a
                 href="/visa"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               VISA
             </a>
 
             <a
                 href="/contact"
-                className="text-2xl text-white hover:text-gray-300"
+                className="text-xl text-white hover:text-gray-300"
             >
               Contact Us
             </a>
@@ -147,7 +147,7 @@ const Navbar = () => {
       {isMobile ? (
         <button onClick={() => setShowMobileMenu(!showMobileMenu)}>☰</button>
       ) : (
-        <div className="flex flex-row items-center justify-center space-x-10 text-lg md:text-xl lg:text-2xl">
+        <div className="flex flex-row items-center justify-center space-x-10 text-lg md:text-xl">
 
           <a href="/">Home</a>
           <div
