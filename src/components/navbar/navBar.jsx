@@ -100,12 +100,6 @@ const Navbar = () => {
               Authors
             </a>
             <a
-                href="/sponsorship"
-                className="text-xl text-white hover:text-gray-300"
-            >
-              Sponsorship
-            </a>
-            <a
                 href="/icetite20"
                 className="text-xl text-white hover:text-gray-300"
             >

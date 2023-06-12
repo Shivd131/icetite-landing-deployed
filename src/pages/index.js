@@ -31,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         setShouldClip(false);
       } else {
         setShouldClip(true);
@@ -54,9 +54,9 @@ export default function Home() {
       <Hero />
       <GridOfButtons items={buttonItems} />
 
-      <div className="flex flex-col md:flex-row lg:flex-row bg-[#E7F4FF] sm:m-0">
+      <div className="flex flex-col md:flex-col lg:flex-row bg-[#E7F4FF] sm:m-0">
         <div
-          className="w-[100vw] md:w-[60vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pr-0 md:pr-20 lg:pr-20 text-center md:text-left lg:text-left"
+          className="w-[100vw] md:w-[100vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pr-0 md:pr-20 lg:pr-20 text-center md:text-left lg:text-left"
           style={{
             clipPath: shouldClip
               ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
@@ -99,9 +99,9 @@ export default function Home() {
         </div>
       </div>
       <div className="py-10"></div>
-      <div className="flex flex-col md:flex-row-reverse lg:flex-row-reverse bg-[#E7F4FF] sm:m-0">
+      <div className="flex flex-col md:flex-col lg:flex-row-reverse bg-[#E7F4FF] sm:m-0">
         <div
-          className="w-[100vw] md:w-[60vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pl-0 md:pl-20 lg:pl-20 text-center md:text-right lg:text-right"
+          className="w-[100vw] md:w-[100vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pl-0 md:pl-20 lg:pl-20 text-center md:text-right lg:text-right"
           style={{
             clipPath: shouldClip
               ? "polygon(20% 0, 100% 0, 100% 100%, 0 100%)"
@@ -114,7 +114,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="p-8 px-16">
-            <p className="text-lg sm:text-xl tracking-wide">
+            <p className="text-lg sm:text-xl tracking-wide ">
               ic-ETITE’24 expresses the importance of upgrading the research in
               Information Technology and Engineering. It motivates to provide a
               worldwide platform to researchers far and widespread by exploring
@@ -141,9 +141,9 @@ export default function Home() {
         </div>
       </div>
       <div className="py-10"></div>
-      <div className="flex flex-col md:flex-row lg:flex-row bg-[#E7F4FF] sm:m-0">
+      <div className="flex flex-col md:flex-col lg:flex-row bg-[#E7F4FF] sm:m-0">
         <div
-          className="w-[100vw] md:w-[60vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pr-0 md:pr-20 lg:pr-20 text-center md:text-left lg:text-left"
+          className="w-[100vw] md:w-[100vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pr-0 md:pr-20 lg:pr-20 text-center md:text-left lg:text-left"
           style={{
             clipPath: shouldClip
               ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
