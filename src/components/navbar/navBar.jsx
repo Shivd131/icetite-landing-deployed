@@ -212,7 +212,7 @@ const Navbar = () => {
       {!isTabletOrMobile && (
         <div className="flex flex-row items-center justify-between">
           <a href="/">
-            <Image src={Ieee} alt="" className="h-12 w-32 -translate-x-2" />
+            <Image src={Ieee} alt="" className="h-12 w-32" />
           </a>
           <a href="https://vit.ac.in">
             <Image src={Vit} alt="" className="translate-x-5 h-10 w-auto" />
