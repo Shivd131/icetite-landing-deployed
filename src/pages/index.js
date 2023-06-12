@@ -131,7 +131,7 @@ export default function Home() {
           <Image
             src={Conf2}
             alt="Image"
-            className="h-full object-cover"
+            className="h-full object-cover sm:clip-none"
             style={{
               clipPath: shouldClip
                 ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
