@@ -67,7 +67,7 @@ export default function Home() {
             <h1 className="text-2xl font-bold">About IC-ETITE</h1>
           </div>
           <div className="py-8 px-16">
-            <p className="text-md tracking-wide">
+            <p className="text-md">
               The purpose of this conference is to enhance the research in
               Information Technology, Computer Engineering, Communication
               Engineering, Electronics Engineering and to afford an
@@ -109,12 +109,12 @@ export default function Home() {
           }}
         >
           <div className="text-[#DE6D1B] pt-8 px-16">
-            <h1 className="text-3xl sm:text-4xl font-bold ">
+            <h1 className="text-2xl font-bold ">
               Theme of the Conference
             </h1>
           </div>
           <div className="p-8 px-16">
-            <p className="text-lg sm:text-xl tracking-wide ">
+            <p className="text-md tracking-wide ">
               ic-ETITE’24 expresses the importance of upgrading the research in
               Information Technology and Engineering. It motivates to provide a
               worldwide platform to researchers far and widespread by exploring
@@ -151,38 +151,38 @@ export default function Home() {
           }}
         >
           <div className="text-[#DE6D1B] pt-8 px-16">
-            <h1 className="text-3xl sm:text-4xl font-bold">
+            <h1 className="text-2xl font-bold">
               Highlights of previous ic-ETITE’20
             </h1>
           </div>
           <div className="py-8 px-16">
-            <p className="text-lg sm:text-xl">
+            <p className="text-md">
               ✶The previous International Conference on Emerging Trends in
               Information Technology and Engineering was organized on 24th &
               25th February 2020.
             </p>
-            <p className="text-lg sm:text-xl">
+            <p className="text-md">
               ✶ ic-ETITE’20 was technically Co-sponsored by IEEE Computer
               Society Madras Chapter, IEEE Communications Society Madras Chapter
               and supported by ACM-Madras Chapter
             </p>
-            <p className="text-lg sm:text-xl">
+            <p className="text-md ">
               ✶ All the presented papers were published in the IEEE Xplore by
               the IEEE.
             </p>
-            <p className="text-lg sm:text-xl mr-10">
+            <p className="text-md  mr-10">
               <a href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding" className="text-blue-700 font-bold">
                 ic-ETITE'20 Proceedings
               </a>
             </p>
-            <p className="text-lg sm:text-xl">
+            <p className="text-lg ">
               IEEE Xplore ISBN:978-1-7281-4142-8
             </p>
-            <p className="text-lg sm:text-xl">USB ISBN:978-1-7281-4141-1</p>
-            <p className="text-lg sm:text-xl">
+            <p className="text-md ">USB ISBN:978-1-7281-4141-1</p>
+            <p className="text-md ">
               ✶ ic-ETITE’20 had 21 technical and 17 keynote sessions.
             </p>
-            <p className="text-lg sm:text-xl">
+            <p className="text-md ">
               ✶ A hackathon titled, “Breakthrough on Locked Technology” BOLT was
               conducted with 500+ participants and gave Rs. 1,00, 000 as prize
               money.
@@ -207,8 +207,8 @@ export default function Home() {
       <div className="flex flex-col items-start bg-[#111042] text-white py-10 text-center md:text-left lg:text-left">
         <div className="mx-8 md:mx-16 lg:mx-16">
           <div>
-            <h3 className="text-4xl font-bold">About VIT</h3>
-            <p className="text-xl py-3">
+            <h3 className="text-2xl font-bold">About VIT</h3>
+            <p className="text-md py-3">
               Vellore Institute of Technology was established under Section 3 of
               the University Grants Commission (UGC) Act, 1956, and was founded
               in 1984 as Vellore Engineering College. The Union Ministry of
@@ -259,8 +259,8 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-10">
-            <h3 className="text-4xl font-bold">About SITE</h3>
-            <p className="text-xl py-3">
+            <h3 className="text-2xl font-bold">About SITE</h3>
+            <p className="text-md py-3">
               The School of Information Technology and Engineering (SITE) offers
               B.Tech (IT), M.Tech (Software Engineering), MCA, BCA, B.Sc
               (Computer Science), M.Tech (by Research) and Ph.D programs in the
@@ -280,10 +280,10 @@ export default function Home() {
             </p>
           </div>
           <div className="pt-10">
-            <h3 className="text-4xl font-bold">
+            <h3 className="text-2xl font-bold">
               About IEEE Information Theory Society, VIT
             </h3>
-            <p className="text-xl py-3">
+            <p className="text-md py-3">
               The IEEE Information Theory Society at VIT is a newly established
               student chapter that explores the latest advancements in
               information theory to tackle modern-day challenges. We provide a
