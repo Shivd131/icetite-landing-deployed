@@ -7,7 +7,7 @@ const GridOfButtons = ({ items }) => {
           item !== "PAPER SUBMISSION LINK" ?
         <button
           key={index}
-          className="bg-[#DE6D1B] p-4 sm:p-2 md:p-4 text-white text-center font-bold"
+          className="bg-[#DE6D1B] p-4 sm:p-2 md:p-3 text-white text-center font-bold justify-center"
         >
           {item}
         </button> : <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024" target="_blank"

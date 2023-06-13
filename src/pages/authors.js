@@ -16,7 +16,7 @@ const Authors = () => {
   const renderContent = () => {
     if (selectedButton === "Information Technology") {
       return (
-        <div className="flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 space-y-5 py-10 rounded-md">
+        <div className="flex flex-col px-10 items-start w-full md:w-1/2 text-lg py-10  lg:w-1/2 rounded-md">
           <p>Information Systems</p>
           <p>Information Retrieval</p>
           <p>Cloud Computing</p>
@@ -52,7 +52,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Communication Engineering") {
       return (
-        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black space-y-5 py-10 rounded-md">
+        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
             <p>Wireless and Sensor Systems</p>
             <p>Social Networking</p>
             <p>Communication Signal Processing</p>
@@ -90,7 +90,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Computer Engineering") {
       return (
-        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black space-y-5 py-10 rounded-md">
+        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
             <p>Computer Architecture</p>
             <p>Computing for Development</p>
             <p>Cognitive Analysis</p>
@@ -119,7 +119,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Electronics Engineering") {
       return (
-        <div className="flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 text-black space-y-5 py-10 rounded-md">
+        <div className="flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10 text-black text-lg rounded-md">
             <p>Fabrication</p>
             <p>Robotics</p>
             <p>Digital Image/Signal Processing</p>
@@ -166,43 +166,43 @@ const Authors = () => {
       <div className="mx-20">
         <FormatAndDates />
 
-        <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-10 lg:space-x-10 pt-20 text-white font-bold">
+        <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-10 lg:space-x-10 text-white font-bold">
           <button
-            className={`px-10 py-10 ${
+            className={`px-10 py-3 ${
               selectedButton === "Information Technology"
                 ? "bg-[#ea0763]"
                 : "bg-[#ea0763]"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+            } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Information Technology")}
           >
             Information Technology
           </button>
           <button
-            className={`px-10 py-10 ${
+            className={`px-10 py-3 ${
               selectedButton === "Communication Engineering"
                 ? "bg-[#ea0763]"
                 : "bg-[#ea0763]"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+            } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Communication Engineering")}
           >
             Communication Engineering
           </button>
           <button
-            className={`px-10 py-10 ${
+            className={`px-10 py-3 ${
               selectedButton === "Computer Engineering"
                 ? "bg-[#ea0763]"
                 : "bg-[#ea0763]"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+            } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Computer Engineering")}
           >
             Computer Engineering
           </button>
           <button
-            className={`px-10 py-10 ${
+            className={`px-10 py-3 ${
               selectedButton === "Electronics Engineering"
                 ? "bg-[#ea0763]"
                 : "bg-[#ea0763]"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+            } text-lg my-2 font-medium w-full md:w-[40rem] lg:w-[40rem] rounded-md`}
             onClick={() => handleClick("Electronics Engineering")}
           >
             Electronics Engineering

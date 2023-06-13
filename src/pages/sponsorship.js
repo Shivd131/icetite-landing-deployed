@@ -7,14 +7,14 @@ const Sponsorship = () => {
     <div>
       <Navbar />
       <div className="mx-10 md:mx-20 lg:mx-20">
-        <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-10">
+        <h1 className="text-3xl font-bold text-[#E15326] pt-20 pb-10">
           Sponsorship
         </h1>
-        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-4xl">
+        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-2xl">
           <p>Platinum Sponsor</p>
           <p>₹ 1,00,000</p>
         </div>
-        <div className="text-2xl py-10">
+        <div className="text-lg py-10">
           <p>&rarr; All benefits of Gold Sponsor.</p>
           <p>&rarr; One special demonstration display area.</p>
           <p>&rarr; One full page advertisement in the conference program.</p>
@@ -45,11 +45,11 @@ const Sponsorship = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-4xl">
+        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-2xl">
           <p>Gold Sponsor</p>
           <p>₹ 50,000</p>
         </div>
-        <div className="text-2xl py-10">
+        <div className="text-lg py-10">
           <p>&rarr; All benefits of Silver Sponsor.</p>
           <p>
             &rarr; Two additional corporate registrations for the conference.
@@ -69,11 +69,11 @@ const Sponsorship = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-4xl">
+        <div className="flex flex-col md:flex-row lg:flex-row items-start justify-between text-2xl">
           <p>Silver Sponsor</p>
           <p>₹ 25,000</p>
         </div>
-        <div className="text-2xl py-10">
+        <div className="text-lg py-10">
           <p>&rarr; Recognition in the conference programs.</p>
           <p>&rarr; One quarter page advertisement in conference program.</p>
           <p>

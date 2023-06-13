@@ -18,7 +18,7 @@ const BottomNavbar = () => {
 
         <div className="flex flex-col items-center text-black font-bold pt-10 text-xl md:text-3xl lg:text-3xl mx-8 md:mx-24 lg:mx-48">
           <h3>TECHNICAL CO-SPONSOR</h3>
-          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full py-10 gap-y-12">
+          <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center w-full pt-10 gap-y-12">
             <Image src={IeeeMadras} alt="" className="h-24 w-auto"/>
           </div>
         </div>
@@ -33,7 +33,7 @@ const BottomNavbar = () => {
           </div>
         </div>
 
-    <div className="px-20 bg-[#111042] text-white py-10">
+    <div className="px-20 bg-[#111042] text-white py-5">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
         <div className="flex flex-col items-center w-full md:w-1/4 lg:w-1/4">
           <Image src={Icetite} alt="" className="lg:-translate-x-10 " />
@@ -48,9 +48,9 @@ const BottomNavbar = () => {
           </div>
         </div>
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center  md:text-left lg:text-left  py-2 md:py-0 lg:py-0 px-10">
-          <h1 className="text-2xl py-8">Address</h1>
+          <h1 className="text-2xl py-2">Address</h1>
           <h4 className="text-xl md:text-xl lg:text-xl py-8 w-full md:w-full lg:w-2/3">
-            Vellore Institute of Technology, Vellore, Tamil Nadu, India. 632014.
+            School of Information Technology and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India. 632014.
           </h4>
         </div>
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center md:text-left lg:text-left py-5 md:py-0 lg:py-0">
@@ -62,8 +62,8 @@ const BottomNavbar = () => {
             <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing" target="_blank">
 
 
-            <h1 className="text-lg md:text-xl lg:text-xl">Download MHA </h1>
-            <h1 className="text-lg md:text-xl lg:text-xl">INDIA, NOC</h1>
+            <h1 className="text-lg md:text-xl lg:text-xl">Download NOC, MHA India</h1>
+            <h1 className="text-lg md:text-xl lg:text-xl"></h1>
             </a>
           </div>
         </div>

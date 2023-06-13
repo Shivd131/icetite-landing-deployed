@@ -8,7 +8,7 @@ const Speakers = () => {
     <>
       <Navbar />
       <div className="mx-10 md:mx-20 lg:mx-20">
-        <h1 className="text-5xl pt-20 pb-10 font-bold text-[#111042]">
+        <h1 className="text-3xl pt-20 pb-10 font-bold text-[#111042]">
           Our Speakers
         </h1>
         <SpeakerGrid />

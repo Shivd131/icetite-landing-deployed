@@ -55,10 +55,10 @@ const SpeakerGrid = () => {
           className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center rounded-3xl"
         >
           <Image src={item.image} alt={item.name} className="w-60 rounded-3xl"/>
-          <div className="pt-8 pb-4">
-            <h2 className="text-3xl font-semibold">{item.name}</h2>
-            <p className="text-lg py-3">{item.department}</p>
-            <p className="text-xl">{item.college}</p>
+          <div className="pt-3 pb-2">
+            <h2 className="text-xl font-semibold">{item.name}</h2>
+            <p className="text-lg py-1">{item.department}</p>
+            <p className="text-lg">{item.college}</p>
           </div>
         </div>
       ))}

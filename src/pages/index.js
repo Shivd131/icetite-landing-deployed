@@ -98,7 +98,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="py-10"></div>
+      <div className="py-2"></div>
       <div className="flex flex-col md:flex-col lg:flex-row-reverse bg-[#E7F4FF] sm:m-0">
         <div
           className="w-[100vw] md:w-[100vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pl-0 md:pl-20 lg:pl-20 text-center md:text-right lg:text-right"
@@ -140,7 +140,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="py-10"></div>
+      <div className="py-2"></div>
       <div className="flex flex-col md:flex-col lg:flex-row bg-[#E7F4FF] sm:m-0">
         <div
           className="w-[100vw] md:w-[100vw] lg:[60vw] sm:w-full sm:transform sm:-skew-x-20 pr-0 md:pr-20 lg:pr-20 text-center md:text-left lg:text-left"
@@ -171,7 +171,7 @@ export default function Home() {
               the IEEE.
             </p>
             <p className="text-md  mr-10">
-              <a href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding" className="text-blue-700 font-bold">
+              <a href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding" target="_blank" className="text-blue-700 font-bold">
                 ic-ETITE'20 Proceedings
               </a>
             </p>
@@ -202,7 +202,6 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="py-10"></div>
 
       <div className="flex flex-col items-start bg-[#111042] text-white py-10 text-center md:text-left lg:text-left">
         <div className="mx-8 md:mx-16 lg:mx-16">
@@ -321,11 +320,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="px-8 md:px-16 lg:px-16 py-10 shadow-xl text-center md:text-left lg:text-left">
-        <h3 className="text-[#FF6000] text-3xl font-bold pb-2">
+      <div className="px-8 md:px-16 lg:px-16 py-8 shadow-xl text-center md:text-left lg:text-left">
+        <h3 className="text-[#FF6000] text-2xl font-bold pb-2">
           Manuscript Submission
         </h3>
-        <p className="text-xl py-3">
+        <p className="text-md py-3">
           The papers should be submitted through <a className="text-blue-800 font-bold" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024">link</a> provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
         </p>
       </div>
