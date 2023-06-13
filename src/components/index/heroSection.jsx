@@ -33,10 +33,10 @@ const heroSection = () => {
         <p className="text-xl md:text-2xl lg:text-2xl mt-6 mb-16">
           February 22-23, 2024 at VIT Vellore, India
         </p>
+          <a href="https://drive.google.com/file/d/1RSI6YmH6pByW6ni02QPxNXhzgvLe-DhK/view?usp=sharing" target="_blank" className="w-fit border-2 border-white bg-transparent bg-white hover:bg-transparent hover:text-white text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all">
+              Download Brochure
+          </a>
       </div>
-        <a href="https://drive.google.com/file/d/1RSI6YmH6pByW6ni02QPxNXhzgvLe-DhK/view?usp=sharing" target="_blank" className="absolute right-10 bottom-10 border-2 border-white bg-transparent bg-white hover:bg-transparent hover:text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all">
-        Download Brochure Now
-      </a>
     </div>
   );
 };

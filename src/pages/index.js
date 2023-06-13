@@ -64,10 +64,10 @@ export default function Home() {
           }}
         >
           <div className="text-[#DE6D1B] pt-8 px-16">
-            <h1 className="text-3xl sm:text-4xl font-bold">About IC-ETITE</h1>
+            <h1 className="text-2xl font-bold">About IC-ETITE</h1>
           </div>
           <div className="py-8 px-16">
-            <p className="text-lg sm:text-xl tracking-wide">
+            <p className="text-md tracking-wide">
               The purpose of this conference is to enhance the research in
               Information Technology, Computer Engineering, Communication
               Engineering, Electronics Engineering and to afford an
