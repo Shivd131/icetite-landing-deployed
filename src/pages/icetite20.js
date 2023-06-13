@@ -36,10 +36,10 @@ const Icetite20 = () => {
     <div>
       <Navbar />
       <div className="mx-10 md:mx-20 lg:mx-20">
-        <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-10">
+        <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-5">
           About ic-ETITE'20
         </h1>
-        <p className="text-xl">
+        <p className="text-lg">
           This event took place in Vellore Institute of Technology, Vellore,
           India on 24th & 25th February 2020. The purpose of this conference was
           to enhance the research in Information Technology, Computer
@@ -69,10 +69,10 @@ const Icetite20 = () => {
           ))}
         </div>
 
-        <h1 className="text-3xl font-bold text-[#111042] pt-20 pb-10">
+        <h1 className="text-2xl font-bold text-[#111042] pt-10 pb-5">
           Theme of the Conference
         </h1>
-        <p className="text-xl">
+        <p className="text-lg">
           ic-ETITE 2020 expresses its concern towards the upgradation of
           researchers in Information Technology and Engineering. It motivates to
           provide a worldwide platform to researchers far and widespread by
@@ -84,10 +84,10 @@ const Icetite20 = () => {
           researchoutlook.
         </p>
 
-        <h1 className="text-3xl font-bold text-[#111042] pt-20 pb-10">
+        <h1 className="text-2xl font-bold text-[#111042] py-5">
           Proceedings Link
         </h1>
-        <a className="text-xl pb-20" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
+        <a className="text-lg pb-20" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
           IEEE Xplore Proceeding
           (link)
         </a>
