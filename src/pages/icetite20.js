@@ -87,9 +87,9 @@ const Icetite20 = () => {
         <h1 className="text-2xl font-bold text-[#111042] py-5">
           Proceedings Link
         </h1>
-        <a className="text-lg pb-20" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
+        <a className="text-lg pb-20" target="_blank" href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding">
           IEEE Xplore Proceeding
-          (link)
+          <span className="font-bold text-blue-800"> (link)</span>
         </a>
       </div>
       <BottomNavbar />

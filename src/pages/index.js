@@ -4,6 +4,8 @@ import { Hero, GridOfButtons } from "./../components/index/_index.js";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
+import DownArrow from "./../../public/icons/downarrow.svg";
+
 import Conf1 from "./../../public/images/index/conference1.png";
 import Conf2 from "./../../public/images/index/conference2.png";
 import Conf3 from "./../../public/images/index/conference3.png";
@@ -16,6 +18,7 @@ import Gal3 from "./../../public/images/index/img3.png";
 
 export default function Home() {
   const [shouldClip, setShouldClip] = useState(true);
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
 
   const buttonItems = [
     "PAPER SUBMISSION LINK",
@@ -38,19 +41,42 @@ export default function Home() {
       }
     };
 
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowScrollToTop(true);
+      } else {
+        setShowScrollToTop(false);
+      }
+    };
+
     // Call handleResize initially and add event listener for window resize
     handleResize();
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden relative">
       <Navbar />
+      <a
+          className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
+          onClick={scrollToTop}
+      >
+        <Image src={DownArrow} alt="" className="rotate-180"/>
+      </a>
       <Hero />
       <GridOfButtons items={buttonItems} />
 

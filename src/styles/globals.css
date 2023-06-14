@@ -39,3 +39,7 @@ body {
   background: #46c6ed;
   border-radius: 1rem;
 }
+
+.scrollbutton{
+  z-index: 200;
+}
