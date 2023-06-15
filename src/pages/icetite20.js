@@ -1,6 +1,6 @@
 import BottomNavbar from "@/components/bottomNavbar/bottomNavbar";
 import Navbar from "@/components/navbar/navBar";
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 import Img1 from "./../../public/images/icetite20/img1.png";
 import Img2 from "./../../public/images/icetite20/img2.png";
@@ -15,6 +15,7 @@ import Img10 from "./../../public/images/icetite20/img10.png";
 import Img11 from "./../../public/images/icetite20/img11.png";
 import Img12 from "./../../public/images/icetite20/img12.png";
 import Image from "next/image";
+import DownArrow from "../../public/icons/downarrow.svg";
 
 const Icetite20 = () => {
   const images = [
@@ -32,9 +33,44 @@ const Icetite20 = () => {
     Img12,
   ];
 
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowScrollToTop(true);
+      } else {
+        setShowScrollToTop(false);
+      }
+    };
+
+    // Call handleResize initially and add event listener for window resize
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+
   return (
     <div>
       <Navbar />
+      <a
+          className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
+          onClick={scrollToTop}
+      >
+        <Image src={DownArrow} alt="" className="rotate-180"/>
+      </a>
+
       <div className="mx-10 md:mx-20 lg:mx-20">
         <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-5">
           About ic-ETITE'20

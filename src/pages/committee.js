@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import BottomNavbar from "@/components/bottomNavbar/bottomNavbar";
 import Navbar from "@/components/navbar/navBar";
+import Image from "next/image";
+import DownArrow from "../../public/icons/downarrow.svg";
 
 const Committee = () => {
   const [selectedButton, setSelectedButton] = useState(
     "Information Technology"
   );
 
-  const handleClick = (button) => {
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+
+    const handleClick = (button) => {
     setSelectedButton(button);
   };
 
@@ -237,10 +242,42 @@ const Committee = () => {
     return null;
   };
 
+
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 200) {
+                setShowScrollToTop(true);
+            } else {
+                setShowScrollToTop(false);
+            }
+        };
+
+        // Call handleResize initially and add event listener for window resize
+        window.addEventListener("scroll", handleScroll);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
   return (
     <div>
       <Navbar />
 
+        <a
+            className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
+            onClick={scrollToTop}
+        >
+            <Image src={DownArrow} alt="" className="rotate-180"/>
+        </a>
       <div className="mx-4 md:mx-20 lg:mx-20">
         <h1 className="text-3xl font-bold text-[#E15326] pt-20">
           Organizing Committee

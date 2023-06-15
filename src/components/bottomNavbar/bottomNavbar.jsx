@@ -27,8 +27,10 @@ const BottomNavbar = () => {
           <h3>SUPPORTED BY</h3>
           <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between py-10 gap-y-12 w-[80vw] lg:w-[80vw]">
             <Image src={Acm} className="h-32 w-auto" alt=""/>
+            <a href="https://ieee-its-landing.vercel.app/" target="_blank">
             <Image src={Itslogo} className="h-32 w-auto" alt=""/>
-            <Image src={Ieecs} className="h-32 w-auto" alt=""/>
+            </a>
+              <Image src={Ieecs} className="h-32 w-auto" alt=""/>
             <Image src={IeeeMad} className="h-32 w-auto" alt=""/>
           </div>
         </div>

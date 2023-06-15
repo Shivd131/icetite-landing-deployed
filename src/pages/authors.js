@@ -1,13 +1,41 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import BottomNavbar from "@/components/bottomNavbar/bottomNavbar";
 import Navbar from "@/components/navbar/navBar";
 import Hero from "./../components/authors/heroSection";
 import FormatAndDates from "@/components/authors/formatAndDates";
+import Image from "next/image";
+import DownArrow from "../../public/icons/downarrow.svg";
 
 const Authors = () => {
   const [selectedButton, setSelectedButton] = useState(
     "Information Technology"
   );
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 200) {
+                setShowScrollToTop(true);
+            } else {
+                setShowScrollToTop(false);
+            }
+        };
+
+        // Call handleResize initially and add event listener for window resize
+        window.addEventListener("scroll", handleScroll);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
 
   const handleClick = (button) => {
     setSelectedButton(button);
@@ -165,6 +193,12 @@ const Authors = () => {
       <Hero />
       <div className="mx-20">
         <FormatAndDates />
+          <a
+              className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
+              onClick={scrollToTop}
+          >
+              <Image src={DownArrow} alt="" className="rotate-180"/>
+          </a>
 
         <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-10 lg:space-x-10 text-white font-bold">
           <button
