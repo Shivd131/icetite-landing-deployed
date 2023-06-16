@@ -43,7 +43,7 @@ const Visa = () => {
         <h1 className="text-3xl font-bold text-[#E15326] pt-20 pb-5">
           Visa Information
         </h1>
-        <p className="text-lg">
+        <p className="text-lg  text-justify">
           The Organizers of ic-ETITE24 will issue appropriate invitation letters
           to delegates after registration to facilitate their e-Visa /regular
           visa application. In case, authors of accepted papers are refused to
@@ -57,7 +57,7 @@ const Visa = () => {
         <h1 className="text-2xl font-bold text-[#111042] py-5">
           E-visa
         </h1>
-        <p className="text-lg">
+        <p className="text-lg  text-justify">
           Delegates from eligible Countries/Territories are advised to apply for
           e-Visa which is completely an online process. At present e-Visa is
           issued to passport holders of 161 countries. e-Visa has 5
@@ -74,7 +74,7 @@ const Visa = () => {
         <h1 className="text-2xl font-bold text-[#111042] py-5">
           Regular Visa
         </h1>
-        <p className="text-lg">
+        <p className="text-lg  text-justify">
           Alternatively, delegates can apply for a regular visa through online
           application link. Delegates from Countries/Territories not listed
           under the e-Visa scheme must apply for regular visa only.For details
@@ -83,10 +83,10 @@ const Visa = () => {
 
         </p>
 
-        <h1 className="text-xl font-extrabold text-[#111042] py-5">
+        <h1 className="text-xl font-extrabold text-[#111042] pt-5">
           Note
         </h1>
-        <p className="text-lg">
+        <p className="text-lg  text-justify">
           If participant does not belong to Afghanistan, Pakistan, Iraq, Sudan,
           foreigners of Pakistani origin and Stateless persons(PRC Category) PRC
           or if participants are not required to visit ‘Restricted’ or
