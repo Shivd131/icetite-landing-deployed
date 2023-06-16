@@ -75,7 +75,7 @@ const Icetite20 = () => {
         <h1 className="text-4xl font-bold text-[#E15326] pt-20 pb-5">
           About ic-ETITE'20
         </h1>
-        <p className="text-lg">
+        <p className="text-lg  text-justify">
           This event took place in Vellore Institute of Technology, Vellore,
           India on 24th & 25th February 2020. The purpose of this conference was
           to enhance the research in Information Technology, Computer

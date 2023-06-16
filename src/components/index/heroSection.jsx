@@ -1,15 +1,38 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 import Image from "next/image.js";
 import BgImage from "./../../../public/images/vit.png";
 
 import IeeeNav from "./../../../public/icons/ieeemadras.png";
+import BgImageMobile from "../../../public/images/vit-mobile.png";
+import BgImageDesktop from "../../../public/images/vit.png";
 
 const heroSection = () => {
-  return (
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        // Add event listener for window resize
+        window.addEventListener("resize", handleResize);
+
+        // Initial check for mobile on component mount
+        handleResize();
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+    const bgImage = isMobile ? BgImageMobile : BgImageDesktop;
+
+    return (
     <div className="relative h-[92vh] bg-cover z-0">
       <Image
-        src={BgImage}
+        src={bgImage}
         alt="Background Image"
         layout="fill"
         objectFit="cover"

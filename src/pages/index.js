@@ -176,13 +176,13 @@ export default function Home() {
               : "none",
           }}
         >
-          <div className="text-[#DE6D1B] pt-8 px-16">
+          <div className="text-[#DE6D1B] pt-8 px-16 ">
             <h1 className="text-2xl font-bold">
               Highlights of previous ic-ETITE’20
             </h1>
           </div>
-          <div className="py-8 px-16">
-            <p className="text-md">
+          <div className="py-8 px-16 text-left text-justify">
+            <p className="text-md ">
               ✶The previous International Conference on Emerging Trends in
               Information Technology and Engineering was organized on 24th &
               25th February 2020.
@@ -255,7 +255,7 @@ export default function Home() {
               and adopts professional approach in governance.
             </p>
             <h6 className="text-xl font-bold py-3">Ranking & Accreditation</h6>
-            <div className="text-xl">
+            <div className="text-md text-left text-justify">
               <p>
                 VIT has emerged as one of the best institutes in India and is
                 aspiring to become a global leader. Quality in

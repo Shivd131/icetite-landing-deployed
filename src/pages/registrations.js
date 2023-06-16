@@ -60,52 +60,58 @@ const Registrations = () => {
                 <tbody>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Industry Professionals</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 9000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 10000</td>
-                    <td className="border border-white py-2 px-4 text-center">250$</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 9000</td>
                     <td className="border border-white py-2 px-4 text-center">300$</td>
+                    <td className="border border-white py-2 px-4 text-center">250$</td>
+
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Faculty / Academicians</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 9000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 8000</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 8000</td>
-                    <td className="border border-white py-2 px-4 text-center">200$</td>
                     <td className="border border-white py-2 px-4 text-center">250$</td>
+                    <td className="border border-white py-2 px-4 text-center">200$</td>
+
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Faculty / Academicians (IEEE Members)</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 6000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 7000</td>
-                    <td className="border border-white py-2 px-4 text-center">175$</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 6000</td>
                     <td className="border border-white py-2 px-4 text-center">225$</td>
+                    <td className="border border-white py-2 px-4 text-center">175$</td>
+
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Research Scholars, UG and PG Students</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 5000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 6000</td>
-                    <td className="border border-white py-2 px-4 text-center">150$</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 5000</td>
                     <td className="border border-white py-2 px-4 text-center">200$</td>
+                    <td className="border border-white py-2 px-4 text-center">150$</td>
+
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Research Scholars, UG and PG Students (IEEE Members)</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 4000</td>
+
                     <td className="border border-white py-2 px-4 text-center">Rs. 5000</td>
-                    <td className="border border-white py-2 px-4 text-center">125$</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 4000</td>
                     <td className="border border-white py-2 px-4 text-center">175$</td>
+                    <td className="border border-white py-2 px-4 text-center">125$</td>
+
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">VIT (internal)</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 3000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 4000</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 3000</td>
                     <td className="border border-white py-2 px-4 text-center"> -- </td>
                     <td className="border border-white py-2 px-4 text-center"> -- </td>
                 </tr>
                 <tr>
                     <td className="border border-white py-2 px-4 text-center">Co-Authors / Participants (non-authors)</td>
+                    <td className="border border-white py-2 px-4 text-center">Rs. 4000</td>
                     <td className="border border-white py-2 px-4 text-center">Rs. 2000</td>
-                    <td className="border border-white py-2 px-4 text-center">Rs. 6000</td>
-                    <td className="border border-white py-2 px-4 text-center">50$</td>
                     <td className="border border-white py-2 px-4 text-center">100$</td>
+                    <td className="border border-white py-2 px-4 text-center">50$</td>
                 </tr>
                 </tbody>
             </table>
