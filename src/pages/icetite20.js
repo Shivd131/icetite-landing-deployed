@@ -108,7 +108,7 @@ const Icetite20 = () => {
         <h1 className="text-2xl font-bold text-[#111042] pt-10 pb-5">
           Theme of the Conference
         </h1>
-        <p className="text-lg">
+        <p className="text-lg text-justify">
           ic-ETITE 2020 expresses its concern towards the upgradation of
           researchers in Information Technology and Engineering. It motivates to
           provide a worldwide platform to researchers far and widespread by
