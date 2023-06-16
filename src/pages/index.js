@@ -11,7 +11,7 @@ import Conf2 from "./../../public/images/index/conference2.png";
 import Conf3 from "./../../public/images/index/conference3.png";
 
 import Gal1 from "./../../public/images/index/img1.png";
-import Gal2 from "./../../public/images/index/img2.png";
+import Gal2 from "./../../public/images/index/vit2.jpg";
 import Gal3 from "./../../public/images/index/img3.png";
 
 
