@@ -19,7 +19,7 @@ const FormatAndDates = () => {
                 Important Dates
             </h1>
             <div className="bg-[#FF794F] h-0.5 w-[20vw] mb-4"></div>
-            <div className="py-3">
+            <div className="py-3 overflow-x-auto">
                 <table className="w-full border border-blue-500">
                     <tbody>
                     <tr>

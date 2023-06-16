@@ -44,7 +44,7 @@ const Authors = () => {
   const renderContent = () => {
     if (selectedButton === "Information Technology") {
       return (
-        <div className="flex flex-col px-10 items-start w-full md:w-1/2 text-lg py-10  lg:w-1/2 rounded-md">
+        <div className="flex flex-col px-5 items-start w-full md:w-1/2 text-lg py-10  lg:w-1/2 rounded-md">
           <p>Information Systems</p>
           <p>Information Retrieval</p>
           <p>Cloud Computing</p>
@@ -80,7 +80,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Communication Engineering") {
       return (
-        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
+        <div className=" flex flex-col px-5 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
             <p>Wireless and Sensor Systems</p>
             <p>Social Networking</p>
             <p>Communication Signal Processing</p>
@@ -118,7 +118,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Computer Engineering") {
       return (
-        <div className=" flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
+        <div className=" flex flex-col px-5 items-start w-full md:w-1/2 lg:w-1/2 py-10  text-black text-lg rounded-md">
             <p>Computer Architecture</p>
             <p>Computing for Development</p>
             <p>Cognitive Analysis</p>
@@ -147,7 +147,7 @@ const Authors = () => {
       );
     } else if (selectedButton === "Electronics Engineering") {
       return (
-        <div className="flex flex-col px-10 items-start w-full md:w-1/2 lg:w-1/2 py-10 text-black text-lg rounded-md">
+        <div className="flex flex-col px-5 items-start w-full md:w-1/2 lg:w-1/2 py-10 text-black text-lg rounded-md">
             <p>Fabrication</p>
             <p>Robotics</p>
             <p>Digital Image/Signal Processing</p>
@@ -191,7 +191,7 @@ const Authors = () => {
     <div>
       <Navbar />
       <Hero />
-      <div className="mx-20">
+      <div className="mx-5 md:mx-10">
         <FormatAndDates />
           <a
               className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
@@ -204,8 +204,8 @@ const Authors = () => {
           <button
             className={`px-10 py-3 ${
               selectedButton === "Information Technology"
-                ? "bg-[#ea0763]"
-                : "bg-[#ea0763]"
+                ? "bg-[#98003E]"
+                : "bg-[#ea0770]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Information Technology")}
           >
@@ -214,8 +214,8 @@ const Authors = () => {
           <button
             className={`px-10 py-3 ${
               selectedButton === "Communication Engineering"
-                ? "bg-[#ea0763]"
-                : "bg-[#ea0763]"
+                  ? "bg-[#98003E]"
+                  : "bg-[#ea0770]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Communication Engineering")}
           >
@@ -224,8 +224,8 @@ const Authors = () => {
           <button
             className={`px-10 py-3 ${
               selectedButton === "Computer Engineering"
-                ? "bg-[#ea0763]"
-                : "bg-[#ea0763]"
+                  ? "bg-[#98003E]"
+                  : "bg-[#ea0770]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Computer Engineering")}
           >
@@ -234,8 +234,8 @@ const Authors = () => {
           <button
             className={`px-10 py-3 ${
               selectedButton === "Electronics Engineering"
-                ? "bg-[#ea0763]"
-                : "bg-[#ea0763]"
+                  ? "bg-[#98003E]"
+                  : "bg-[#ea0770]"
             } text-lg my-2 font-medium w-full md:w-[40rem] lg:w-[40rem] rounded-md`}
             onClick={() => handleClick("Electronics Engineering")}
           >
