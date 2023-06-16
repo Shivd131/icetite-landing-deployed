@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-import Image from "next/image.js";
+import Image from "next/image";
 import BgImage from "./../../../public/images/vit.png";
 
 import IeeeNav from "./../../../public/icons/ieeemadras.png";

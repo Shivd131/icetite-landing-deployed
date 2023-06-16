@@ -47,7 +47,7 @@ const data = [
 
 const SpeakerGrid = () => {
   return (
-      <>
+      <div className="flex flex-col items-center">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-between pb-20">
       {data.map((item) => (
         <div
@@ -65,7 +65,7 @@ const SpeakerGrid = () => {
 
     </div>
   <p className="text-2xl text-[#ea0763] flex flex-col items-center pb-10 font-bold">and many more...</p>
-      </>
+      </div>
         );
 };
 
