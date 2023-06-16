@@ -117,7 +117,7 @@ const Icetite20 = () => {
           related to the topics of the conference. The essential objective of
           the conference is to assist the researchers in discovering the global
           linkage for future joint efforts in their academic and
-          researchoutlook.
+          research outlook.
         </p>
 
         <h1 className="text-2xl font-bold text-[#111042] py-5">
