@@ -42,10 +42,18 @@ const BottomNavbar = () => {
           <div className="flex flex-col items-center md:items-start lg:items-start w-full justify-between text-center  md:text-left lg:text-left  py-10 md:py-0 lg:py-0">
             <h3 className="text-2xl py-8 font-bold px-16">Social Links</h3>
             <div className="flex flex-row justify-between items-center px-24 md:px-16 w-full md:w-full lg:w-3/4 space-x-3">
+              <a href="https://www.instagram.com/icetite20/" target="_blank">
               <Image src={Instagram} alt="" />
+              </a>
               <Image src={Linkedin} alt="" />
-              <Image src={Facebook} alt="" />
-              <Image src={Email} alt="" />
+              <a href="https://www.facebook.com/icetite.icetite.3/" target="_blank">
+                <Image src={Facebook} alt="" />
+              </a>
+
+              <a href="mailto:icetiteconference@gmail.com">
+                <Image src={Email} alt="" />
+              </a>
+
             </div>
           </div>
         </div>

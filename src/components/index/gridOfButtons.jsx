@@ -7,11 +7,12 @@ const GridOfButtons = ({ items }) => {
           item !== "PAPER SUBMISSION LINK" ?
         <button
           key={index}
-          className="bg-[#DE6D1B] p-4 sm:p-2 md:p-3 text-white text-center font-bold justify-center"
+          className="bg-[#DE6D1B] hover:bg-[#8D4510] transition-all p-4 sm:p-2 md:p-3 text-white text-center font-bold justify-center"
+          disabled={true}
         >
           {item}
         </button> : <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024" target="_blank"
-                       className="bg-green-700 p-4 sm:p-2 md:p-4 text-white cursor-pointer text-center font-bold">
+                       className="bg-green-700 hover:bg-green-900 transition-all p-4 sm:p-2 md:p-4 text-white cursor-pointer text-center font-bold">
                 {item}
               </a>
       ))}

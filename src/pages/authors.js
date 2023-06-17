@@ -205,7 +205,7 @@ const Authors = () => {
             className={`px-10 py-3 ${
               selectedButton === "Information Technology"
                 ? "bg-[#98003E]"
-                : "bg-[#ea0770]"
+                : "bg-[#ea0770] hover:bg-[#DA3A7B]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Information Technology")}
           >
@@ -215,7 +215,7 @@ const Authors = () => {
             className={`px-10 py-3 ${
               selectedButton === "Communication Engineering"
                   ? "bg-[#98003E]"
-                  : "bg-[#ea0770]"
+                  : "bg-[#ea0770] hover:bg-[#DA3A7B]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Communication Engineering")}
           >
@@ -225,7 +225,7 @@ const Authors = () => {
             className={`px-10 py-3 ${
               selectedButton === "Computer Engineering"
                   ? "bg-[#98003E]"
-                  : "bg-[#ea0770]"
+                  : "bg-[#ea0770] hover:bg-[#DA3A7B]"
             } font-medium w-full md:w-[40rem] lg:w-[40rem] text-lg my-2 rounded-md`}
             onClick={() => handleClick("Computer Engineering")}
           >
@@ -234,8 +234,8 @@ const Authors = () => {
           <button
             className={`px-10 py-3 ${
               selectedButton === "Electronics Engineering"
-                  ? "bg-[#98003E]"
-                  : "bg-[#ea0770]"
+                  ? "bg-[#98003E] "
+                  : "bg-[#ea0770] hover:bg-[#DA3A7B]"
             } text-lg my-2 font-medium w-full md:w-[40rem] lg:w-[40rem] rounded-md`}
             onClick={() => handleClick("Electronics Engineering")}
           >

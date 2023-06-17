@@ -382,8 +382,8 @@ const Committee = () => {
             className={`px-10 py-5 ${
               selectedButton === "Information Technology"
                 ? "bg-[#111042] text-white"
-                : "bg-[#46C6ED] text-black"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                : "bg-[#46C6ED] text-black hover:bg-[#9CE8FF]"
+            } text-xl font-medium w-full hover:bg-[#4096B0] transition-all md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
             onClick={() => handleClick("Information Technology")}
           >
             Organizing Committee
@@ -392,8 +392,8 @@ const Committee = () => {
             className={`px-10 py-5 ${
               selectedButton === "Communication Engineering"
                 ? "bg-[#111042] text-white"
-                : "bg-[#46C6ED] text-black"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                : "bg-[#46C6ED] text-black hover:bg-[#9CE8FF]"
+            } text-xl font-medium w-full transition-all md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
             onClick={() => handleClick("Communication Engineering")}
           >
             International Advisory
@@ -402,8 +402,8 @@ const Committee = () => {
             className={`px-10 py-5 ${
               selectedButton === "Computer Engineering"
                 ? "bg-[#111042] text-white"
-                : "bg-[#46C6ED] text-black"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                : "bg-[#46C6ED] text-black hover:bg-[#9CE8FF]"
+            } text-xl font-medium w-full  transition-all md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
             onClick={() => handleClick("Computer Engineering")}
           >
             National Advisory
@@ -411,9 +411,9 @@ const Committee = () => {
           <button
             className={`px-10 py-5 ${
               selectedButton === "Electronics Engineering"
-                ? "bg-[#111042] text-white"
-                : "bg-[#46C6ED] text-black"
-            } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                ? "bg-[#111042] text-white "
+                : "bg-[#46C6ED] text-black hover:bg-[#9CE8FF]"
+            } text-xl font-medium w-full  transition-all md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
             onClick={() => handleClick("Electronics Engineering")}
           >
             Technical Committee
@@ -423,7 +423,7 @@ const Committee = () => {
                     selectedButton === "Student Committee"
                         ? "bg-[#111042] text-white"
                         : "bg-[#46C6ED] text-black"
-                } text-xl font-medium w-full md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
+                } text-xl font-medium w-full hover:bg-[#9CE8FF] transition-all md:w-[40rem] lg:w-[40rem] my-5 rounded-md`}
                 onClick={() => handleClick("Student Committee")}
             >
                 Student Committee
