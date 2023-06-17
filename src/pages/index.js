@@ -20,6 +20,23 @@ export default function Home() {
   const [shouldClip, setShouldClip] = useState(true);
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
+  const [gal1Clicks, setGal1Clicks] = useState(0);
+  const [gal2Clicks, setGal2Clicks] = useState(0);
+
+  const handleGal1Click = () => {
+    setGal1Clicks(prevClicks => prevClicks + 1);
+    if (gal1Clicks === 4) {
+      window.open('https://www.linkedin.com/in/souvik-mukherjee-355943123/');
+    }
+  };
+
+  const handleGal2Click = () => {
+    setGal2Clicks(prevClicks => prevClicks + 1);
+    if (gal2Clicks === 4) {
+      window.open('https://www.linkedin.com/in/ayushi-prasad-59310a1a0/');
+    }
+  };
+
   const buttonItems = [
     "PAPER SUBMISSION LINK",
     "IEEE ic-ETITE'24 Final Paper Template",
@@ -255,7 +272,7 @@ export default function Home() {
               and adopts professional approach in governance.
             </p>
             <h6 className="text-xl font-bold py-3">Ranking & Accreditation</h6>
-            <div className="text-md text-left text-justify">
+            <div className="text-md text-justify">
               <p>
                 VIT has emerged as one of the best institutes in India and is
                 aspiring to become a global leader. Quality in
@@ -323,18 +340,18 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center">
-        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]">
+        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]" onClick={handleGal1Click}>
           <Image
-            src={Gal1}
-            alt=""
-            className="object-cover object-center h-full"
+              src={Gal1}
+              alt=""
+              className="object-cover object-center h-full"
           />
         </div>
-        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]">
+        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]" onClick={handleGal2Click}>
           <Image
-            src={Gal2}
-            alt=""
-            className="object-cover object-center h-full"
+              src={Gal2}
+              alt=""
+              className="object-cover object-center h-full"
           />
         </div>
         <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]">
