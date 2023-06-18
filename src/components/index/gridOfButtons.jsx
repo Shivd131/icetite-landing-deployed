@@ -4,7 +4,7 @@ const GridOfButtons = ({ items }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 m-16">
       {items.map((item, index) => (
-          item !== "PAPER SUBMISSION LINK" ?
+          item !== "PAPER SUBMISSION" ?
         <button
           key={index}
           className="bg-[#DE6D1B] hover:bg-[#8D4510] transition-all p-4 sm:p-2 md:p-3 text-white text-center font-bold justify-center"

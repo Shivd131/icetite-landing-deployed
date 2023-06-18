@@ -38,7 +38,7 @@ export default function Home() {
   };
 
   const buttonItems = [
-    "PAPER SUBMISSION LINK",
+    "PAPER SUBMISSION",
     "IEEE ic-ETITE'24 Final Paper Template",
     "General Information For Registered Authors",
     "Instructions For Paper Presentation",

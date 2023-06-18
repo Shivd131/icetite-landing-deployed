@@ -6,7 +6,7 @@ import IeeeNav from "../../../public/icons/ieeemadras.png";
 
 const heroSection = () => {
   return (
-    <div className="relative h-[85vh] md:h-[90vh] bg-cover z-0">
+    <div className="relative h-[98vh] bg-cover z-0">
       <Image
         src={BgImage}
         alt="Background Image"

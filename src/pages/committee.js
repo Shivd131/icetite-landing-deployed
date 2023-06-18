@@ -67,6 +67,7 @@ const Committee = () => {
               <p>Dr. Kumaresan. P , Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Santhi. K, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Gayathri. A, Assistant Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Benjula Anbu Malar. M.  B, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Magesh. G, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Balasubramani. M, Assistant Professor, SITE, VIT, Vellore</p>
               <p>Dr. Karthikeyan. D, Assistant Professor, SITE, VIT, Vellore</p>
@@ -80,7 +81,6 @@ const Committee = () => {
               <p>Dr. Kamalakannan. J, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Jayaram Reddy. A, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Nirmala. M, Associate Professor, SITE, VIT, Vellore</p>
-              <p>Dr. Raghavan. R, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Sujatha. R, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Vijayan. E, Associate Professor, SITE, VIT, Vellore</p>
               <p>Dr. Nithya. S, Associate Professor, SITE, VIT, Vellore</p>
