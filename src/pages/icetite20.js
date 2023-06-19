@@ -80,17 +80,10 @@ const Icetite20 = () => {
           India on 24th & 25th February 2020. The purpose of this conference was
           to enhance the research in Information Technology, Computer
           Engineering, Communication Engineering, Electronics Engineering and to
-          afford an international platform for the researchers, academicians,
+          afford an international platform for researchers, academicians,
           engineers, industrialists and students around the world to share their
           research findings with the global experts in the field of Science and
-          Technology. The primary goal of the conference is to help the
-          delegates to launch their research or business relations and to
-          associate for future collaborations in their career path. Original,
-          unpublished papers highlighting specific research domains from all
-          subject perspectives are invited from delegates worldwide. In this
-          concern, the conference aimed to deliver, coordinate and publish
-          research and resources to enrich the impact and growth of education
-          allied.
+          Technology.
         </p>
 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-14">
@@ -109,13 +102,13 @@ const Icetite20 = () => {
           Theme of the Conference
         </h1>
         <p className="text-lg text-justify">
-          ic-ETITE 2020 expresses its concern towards the upgradation of
+          ic-ETITE 2020 expressed its concern towards the upgradation of
           researchers in Information Technology and Engineering. It motivates to
           provide a worldwide platform to researchers far and widespread by
-          exploring their innovations in the field of science and technology.
+          exploring their innovations in the fields of science and technology.
           The mission is to promote and improve the research and development
           related to the topics of the conference. The essential objective of
-          the conference is to assist the researchers in discovering the global
+          the conference was to assist the researchers in discovering the global
           linkage for future joint efforts in their academic and
           research outlook.
         </p>
