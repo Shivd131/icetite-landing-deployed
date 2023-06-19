@@ -25,10 +25,10 @@ const Committee = () => {
               <p>Dr. Usha Devi. G, HOD/IT, SITE, VIT, Vellore</p>
               <p>Dr. Parimala. M, HOD/SC, SITE, VIT, Vellore</p>
               <p>Dr. Vanitha. M, HOD/CA, SITE, VIT, Vellore</p>
-              <p>Dr. Ajit Kumar Santra, Senior Professor, SITE, VIT, Vellore</p>
+              <p>Dr. Ajit Kumar Santra, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Balakrushna Tripathy, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Ganesan K, Professor, SITE, VIT, Vellore</p>
-              <p>Prof. Hari Ram Vishwakarma, Senior Professor, SITE, VIT, Vellore</p>
+              <p>Prof. Hari Ram Vishwakarma, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Subha. S, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Valarmathi. B, Professor, SITE, VIT, Vellore</p>
               <p>Dr. Neelu Khare, Professor, SITE, VIT, Vellore</p>

@@ -44,10 +44,10 @@ const Visa = () => {
           Visa Information
         </h1>
         <p className="text-lg  text-justify">
-          The Organizers of ic-ETITE24 will issue appropriate invitation letters
+          The Organizers of ic-ETITE'24 will issue appropriate invitation letters
           to delegates after registration to facilitate their e-Visa /regular
           visa application. In case, authors of accepted papers are refused to
-          issue VISA then SKYPE presentation can be organized during the
+          issue VISA then ONLINE presentation can be organized during the
           conference period. It is important that delegates apply early to allow
           adequate time for processing Visa applications. This will allow for a
           smooth, hassle-free process in coming to Vellore. Rephrase this in a
