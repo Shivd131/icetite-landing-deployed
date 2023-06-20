@@ -295,9 +295,13 @@ export default function Home() {
               </p>
               <p>✶ NAAC Accreditation with A++ grade in the 4th cycle</p>
               <p>
-                ✶ Ranked within the top 200 Universities in Asia (QS - Asia
-                University Rankings 2022)
+                ✶  Engineering and Technology subject areas of VIT are the 240th best in the World and the 9th best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)
               </p>
+              <p>
+                ✶ The 173rd best Institution in Asia (QS - Asia University Rankings 2023)
+              </p>
+
+
             </div>
           </div>
           <div className="pt-10">
@@ -309,7 +313,7 @@ export default function Home() {
               domain of Information Technology and Engineering. Its focus is on
               holistic learning to help students to make significant
               contributions to the Information Technology industry and to serve
-              society at large. The school has more than 4,800 students and 180
+              society at large. The school has more than 5,900 students and 188
               committed faculty members, apart from many visiting professors,
               working professionals from the industry and R&D organizations. The
               School has State-of-the-art infrastructure for teaching-learning,
