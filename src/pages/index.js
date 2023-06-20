@@ -279,27 +279,21 @@ export default function Home() {
                 teaching-learning, research and innovation make VIT unique.
               </p>
               <p>
-                ✶ Ranked among the top 601-700 Universities of the world and one
-                among the top 3 Institutions in India (Shanghai ARWU Ranking
-                2022)
-              </p>
-              <p>
-                ✶ The 9th best University, the 10th best research institution
-                and the 12th best engineering institution in India (NIRF
-                Ranking, Govt. of India 2022)
-              </p>
-              <p>
-                ✶ The engineering and Technology subject areas of VIT are the
-                346th best in the World and the 9th best in India as per QS
-                World University Rankings by Subject 2022
-              </p>
-              <p>✶ NAAC Accreditation with A++ grade in the 4th cycle</p>
-              <p>
                 ✶  Engineering and Technology subject areas of VIT are the 240th best in the World and the 9th best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)
+              </p>
+              <p>
+                ✶  The 8th best University, the 11th best research institution and the 11th best engineering institution in India (NIRF Ranking, Govt. of India 2023)
               </p>
               <p>
                 ✶ The 173rd best Institution in Asia (QS - Asia University Rankings 2023)
               </p>
+              <p>
+                ✶ Ranked among the top 601-700 Universities of the world and one among the top 3 Institutions in India (Shanghai ARWU Ranking 2022)
+              </p>
+              <p>
+                ✶ NAAC Accreditation with A++ grade (3.66 out of 4)
+              </p>
+
 
 
             </div>
