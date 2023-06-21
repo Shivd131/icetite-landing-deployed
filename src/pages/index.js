@@ -279,8 +279,11 @@ export default function Home() {
                 teaching-learning, research and innovation make VIT unique.
               </p>
               <p>
-                ✶  Engineering and Technology subject areas of VIT are the 240th best in the World and the 9th best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)
+                ✶   Engineering and Technology subject areas of VIT are the 240th best in the World and the 9th best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)
               </p>
+              <p>
+                ✶ Computer Science & Information Systems subject of VIT is ranked among the top 201-250 Universities in the World and the 7th best institution in India (as per QS World University Rankings by Subject 2023)
+            </p>
               <p>
                 ✶  The 8th best University, the 11th best research institution and the 11th best engineering institution in India (NIRF Ranking, Govt. of India 2023)
               </p>
