@@ -37,7 +37,6 @@ const heroSection = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
             <div className="absolute top-0 left-0 p-5 z-30 text-white mx-5 flex flex-col h-full justify-center w-[80vw] md:w-[70vw] lg:w-[50vw]">
-                <Image src={IeeeNav} className="pb-5 w-40 h-auto" />
                 <div className="py-3"></div>
                 <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold">
                     Registration Guidelines for ic-ETITE'24
