@@ -50,7 +50,7 @@ const BottomNavbar = () => {
                 <Image src={Facebook} alt="" />
               </a>
 
-              <a href="mailto:icetiteconference@gmail.com">
+              <a href="mailto:icetiteconference@vit.ac.in">
                 <Image src={Email} alt="" />
               </a>
 
@@ -71,9 +71,9 @@ const BottomNavbar = () => {
           </h4>
         </div>
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center md:text-left lg:text-left py-5 md:py-0 lg:py-0">
-          <h1 className="text-lg md:text-xl lg:text-xl py-5">
+          <a target="_blank" href="https://drive.google.com/file/d/1l6NLqeEptX34qIWFk08i8B4Nsjk762tt/view?usp=sharing" className="text-lg md:text-xl lg:text-xl py-5">
             Download Sponsorship Brochure
-          </h1>
+          </a>
           <div className="py-2"></div>
           <div className="py-5">
             <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing" target="_blank">
