@@ -49,7 +49,7 @@ const ContactUs = () => {
         <div className="text-lg flex flex-col md:flex-row lg:flex-row w-[80vw] md:w-[60vw] lg:w-[60vw] justify-between space-x-0 md:space-x-12 py-5 space-y-4 md:space-y-0 lg:space-y-0">
           <div>
             <p>Dr. K. John Singh</p>
-            <p>Professor, SITE, VIT, Vellore</p>
+            <p>Professor, SCORE, VIT, Vellore</p>
           </div>
           <div className="text-left md:text-right lg:text-right">
             <p>+91 9442451035</p>
@@ -63,7 +63,7 @@ const ContactUs = () => {
         <div className="text-lg flex flex-col md:flex-row lg:flex-row w-[80vw] md:w-[60vw] lg:w-[60vw] justify-between space-x-0 md:space-x-12 py-5 space-y-4 md:space-y-0 lg:space-y-0">
           <div>
             <p>Dr. P. G. Shynu</p>
-            <p>Associate Professor, SITE, VIT, Vellore</p>
+            <p>Associate Professor, SCORE, VIT, Vellore</p>
           </div>
           <div className="text-left md:text-right lg:text-right">
             <p>+91 9840800396</p>
@@ -75,7 +75,7 @@ const ContactUs = () => {
         <div className="text-lg flex flex-col md:flex-row lg:flex-row w-[80vw] md:w-[60vw] lg:w-[60vw] justify-between space-x-0 md:space-x-12 py-5 space-y-4 md:space-y-0 lg:space-y-0">
           <div>
             <p>Dr. Vijayan.R</p>
-            <p>Professor, SITE, VIT, Vellore</p>
+            <p>Professor, SCORE, VIT, Vellore</p>
           </div>
           <div className="text-left md:text-right lg:text-right">
             <p>+91 9842350596</p>
@@ -87,7 +87,7 @@ const ContactUs = () => {
         <div className="text-lg flex flex-col md:flex-row lg:flex-row w-[80vw] md:w-[60vw] lg:w-[60vw] justify-between space-x-0 md:space-x-12 py-5 pb-10 space-y-4 md:space-y-0 lg:space-y-0">
           <div>
             <p>Dr. Gunasekaran G</p>
-            <p>Associate Professor, SITE, VIT, Vellore</p>
+            <p>Associate Professor, SCORE, VIT, Vellore</p>
           </div>
           <div className="text-left md:text-right lg:text-right">
             <p>+91 9443049982</p>

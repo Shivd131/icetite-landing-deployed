@@ -302,9 +302,9 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-10">
-            <h3 className="text-2xl font-bold">About SITE</h3>
+            <h3 className="text-2xl font-bold">About SCORE (Formerly SITE)</h3>
             <p className="text-md py-3 text-justify">
-              The School of Information Technology and Engineering (SITE) offers
+              The School of Computer Science Engineering and Information Systems (SCORE) offers
               B.Tech (IT), M.Tech (Software Engineering), MCA, BCA, B.Sc
               (Computer Science), M.Tech (by Research) and Ph.D programs in the
               domain of Information Technology and Engineering. Its focus is on
