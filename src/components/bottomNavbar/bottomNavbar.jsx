@@ -60,7 +60,10 @@ const BottomNavbar = () => {
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center  md:text-left lg:text-left  py-2 md:py-0 lg:py-0 px-10">
           <h1 className="text-2xl py-2">Address</h1>
           <h4 className="textSaving…-xl md:text-xl lg:text-xl py-4 w-full md:w-full lg:w-2/3">
-            School of Computer Science Engineering and Information Systems (SCORE formerly SITE)
+            School of Computer Science Engineering and Information Systems (SCORE)
+          </h4>
+          <h4 className="textSaving…-xl md:text-xl lg:text-xl py-4 w-full md:w-full lg:w-2/3">
+            Formerly known as School of Information Technology (SITE)
           </h4>
           <h4 className="text-xl md:text-xl lg:text-xl py-2 w-full md:w-full lg:w-2/3">
             Vellore Institute of Technology
