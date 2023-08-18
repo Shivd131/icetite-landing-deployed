@@ -234,7 +234,6 @@ const Committee = () => {
                 <p>Mr. Souvik Mukherjee</p>
                 <p>Mr. Jai Munjal</p>
                 <p>Mr. Sourav Dhanania</p>
-                <p>Mr. Namit Dasappanavar</p>
                 <p>Mr. Lohith Pattubala</p>
             </div>
         )
