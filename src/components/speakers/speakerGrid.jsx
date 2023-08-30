@@ -48,11 +48,11 @@ const data = [
 const SpeakerGrid = () => {
   return (
       <div className="flex flex-col items-center md:items-stretch justify-between">
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-between pb-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-between pb-20">
       {data.map((item) => (
         <div
           key={item.id}
-          className="p-4 bg-[#111042] w-80 text-white flex flex-col items-center text-center rounded-3xl"
+          className="p-4 bg-[#111042] w-full text-white flex flex-col items-center text-center rounded-3xl"
         >
           <Image src={item.image} alt={item.name} className="w-60 rounded-3xl"/>
           <div className="pt-3 pb-2">

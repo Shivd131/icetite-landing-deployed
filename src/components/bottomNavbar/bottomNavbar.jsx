@@ -74,11 +74,14 @@ const BottomNavbar = () => {
           </h4>
         </div>
         <div className="flex flex-col items-center md:items-start lg:items-start w-full md:w-1/3 lg:w-1/3 justify-between text-center md:text-left lg:text-left py-5 md:py-0 lg:py-0">
-          <a target="_blank" href="https://drive.google.com/file/d/1E-joFjEGhLs4ctEda9PocxIwZftvdvRW/view?usp=sharing" className="text-lg md:text-xl lg:text-xl py-5">
-            Download Brochure
+          <a target="_blank" href="https://drive.google.com/file/d/1E-joFjEGhLs4ctEda9PocxIwZftvdvRW/view?usp=sharing" className="text-lg md:text-xl lg:text-xl pb-5">
+            Download Conference Brochure
+          </a>
+          <a target="_blank" href="https://drive.google.com/file/d/1OMdEFzmGTLv7aUo64F4fE6_IPGmeWnkV/view?usp=sharing" className="text-lg md:text-xl lg:text-xl py-5">
+            Download Sponsorship Brochure
           </a>
           <div className="py-2"></div>
-          <div className="py-5">
+          <div className="pt-5">
             <a href="https://drive.google.com/file/d/1iUOS4-H1wpQxf1tuH0VU8ZorQgNqJvgA/view?usp=sharing" target="_blank">
 
 
