@@ -63,7 +63,7 @@ const BottomNavbar = () => {
             School of Computer Science Engineering and Information Systems (SCORE)
           </h4>
           <h4 className="textSaving…-xl md:text-xl lg:text-xl py-4 w-full md:w-full lg:w-2/3">
-            Formerly known as School of Information Technology and Engineering (SITE)
+            Formerly School of Information Technology and Engineering (SITE)
           </h4>
           <h4 className="text-xl md:text-xl lg:text-xl py-2 w-full md:w-full lg:w-2/3">
             Vellore Institute of Technology
