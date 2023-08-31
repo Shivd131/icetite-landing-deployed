@@ -22,7 +22,7 @@ const data = [
   {
     id: 2,
     image: Vladimir,
-    name: "Vladimir Brusic",
+    name: "Dr. Vladimir Brusic",
     department: "Professor, Computer Science",
     college: "University of Nottingham, China",
   },
