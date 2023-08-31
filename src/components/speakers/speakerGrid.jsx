@@ -6,6 +6,10 @@ import Anupriya from "./../../../public/anupriya_microsoft.png";
 import Dr1 from "./../../../public/Dr 1.png";
 import Dr2 from "./../../../public/Dr 2.png";
 import Ganesan from "./../../../public/Ganesan Narayanasamy 1.png";
+import Korhan from "./../../../public/Korhan.png";
+import Rahul from "./../../../public/Rahul.png";
+import Tokunbo from "./../../../public/Tokunbo.png";
+import Vladimir from "./../../../public/vladimir-brusic.png";
 
 const data = [
   {
@@ -17,32 +21,61 @@ const data = [
   },
   {
     id: 2,
+    image: Vladimir,
+    name: "Vladimir Brusic",
+    department: "Professor, Computer Science",
+    college: "University of Nottingham, China",
+  },
+  {
+    id: 3,
+    image: Tokunbo,
+    name: "Dr. Tokunbo Ogunfunmi",
+    department: "Department of Electrical and Computer Engineering",
+    college: "Santa Clara University, USA",
+  },
+  {
+    id: 4,
     image: Dr2,
     name: "Dr. Biju Issac",
     department: "Department of Computer, Information Sciences",
     college: "Northumbria University,NewCastle, UK",
   },
   {
-    id: 3,
+    id: 5,
     image: Ganesan,
     name: "Ganesan Narayanasamy",
     department: "Senior Technical Computing Solution Manager",
     college: "IBM, USA",
   },
   {
-    id: 4,
+    id: 6,
+    image: Korhan,
+    name: "Dr. Korhan Cengiz",
+    department: "Faculty of Engineering",
+    college: "University of Fujairah, UAE",
+  },
+  {
+    id: 7,
+    image: SpeakerImg,
+    name: "Dr. Srinivas Talabattula",
+    department: "Dept. Of Electrical Communication Engineering",
+    college: "Indian Institute of Science, Bangalore"
+  },
+  {
+    id: 8,
     image: Anupriya,
     name: "Anupriya Singh",
     department: "",
     college: "Microsoft",
   },
   {
-    id: 5,
-    image: SpeakerImg,
-    name: "Dr. Srinivas Talabattula",
-    department: "Dept. Of Electrical Communication Engineering",
-    college: "Indian Institute of Science, Bangalore"
-  }
+    id: 9,
+    image: Rahul,
+    name: "Dr. Rahul Sharad Gaikwad",
+    department: "",
+    college: "Amazon",
+  },
+
 ];
 
 const SpeakerGrid = () => {
