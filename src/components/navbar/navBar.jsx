@@ -202,7 +202,7 @@ const Navbar = () => {
               </a>
             </motion.div>
           </div>
-          <a href="/">Expo'24</a>
+          <a href="/">TechNext'24</a>
           <a href="/visa">Visa</a>
           <a href="/contact">Contact</a>
 
