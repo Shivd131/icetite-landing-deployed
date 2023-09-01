@@ -77,7 +77,7 @@ const BottomNavbar = () => {
           <a target="_blank" href="https://drive.google.com/file/d/1E-joFjEGhLs4ctEda9PocxIwZftvdvRW/view?usp=sharing" className="text-lg md:text-xl lg:text-xl pb-5">
             Download Conference Brochure
           </a>
-          <a target="_blank" href="https://drive.google.com/file/d/1OMdEFzmGTLv7aUo64F4fE6_IPGmeWnkV/view?usp=sharing" className="text-lg md:text-xl lg:text-xl py-5">
+          <a target="_blank" href="https://drive.google.com/file/d/1oS74S9R-eI3FCPqO7abHedtPoP2H-ot2/view?usp=sharing" className="text-lg md:text-xl lg:text-xl py-5">
             Download Sponsorship Brochure
           </a>
           <div className="py-2"></div>
