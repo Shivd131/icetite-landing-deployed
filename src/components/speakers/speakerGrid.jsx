@@ -88,11 +88,18 @@ const data = [
     college: "Microsoft",
   },
   {
+    id: 9,
+    image: Rahul,
+    name: "Dr. Rahul Sharad Gaikwad",
+    department: "",
+    college: "Amazon",
+  },
+  {
     id: 11,
     image: Narendra,
     name: "Dr. Narendra S Chaudhari",
     department: "Vice Chancellor",
-    college: "Assam Science and Technology University, Gauhati",
+    college: "Assam Science and Technology University, Guwahati",
   },
   {
     id: 12,
