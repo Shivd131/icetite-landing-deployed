@@ -21,8 +21,8 @@ const Committee = () => {
       return (
           <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-1 text-lg py-10 px-10 rounded-md">
               <p className="font-bold text-xl text-orange-600">Executive Committee</p>
-              <p>Dr. Shantharajah. S. P, HOD/SSE, SCORE, VIT, Vellore</p>
-              <p>Dr. Usha Devi. G, HOD/IT, SCORE, VIT, Vellore</p>
+              <p>Dr. Prabhavathy. P, Professor, HOD/IT, SCORE, VIT, Vellore</p>
+              <p>Dr. Neelu Khare, HOD/SSE, SCORE, VIT, Vellore</p>
               <p>Dr. Parimala. M, HOD/SC, SCORE, VIT, Vellore</p>
               <p>Dr. Vanitha. M, HOD/CA, SCORE, VIT, Vellore</p>
               <p>Dr. Ajit Kumar Santra, Professor, SCORE, VIT, Vellore</p>
@@ -31,7 +31,6 @@ const Committee = () => {
               <p>Prof. Hari Ram Vishwakarma, Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Subha. S, Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Valarmathi. B, Professor, SCORE, VIT, Vellore</p>
-              <p>Dr. Neelu Khare, Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Durai Raj Vincent P. M, Professor, SCORE, VIT, Vellore</p>
               <p className="font-bold text-xl text-orange-600">Publicity Committee</p>
               <p>Dr. Sumangali. K, Associate Professor, SCORE, VIT, Vellore</p>
