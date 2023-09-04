@@ -68,6 +68,7 @@ const Committee = () => {
               <p>Dr. Gayathri. A, Assistant Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Benjula Anbu Malar. M.  B, Assistant Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Magesh. G, Assistant Professor, SCORE, VIT, Vellore</p>
+              <p>Dr. Chemmalar Selvi G Assistant Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Balasubramani. M, Assistant Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Karthikeyan. D, Assistant Professor, SCORE, VIT, Vellore</p>
               <p>Dr. Arun Kumar. A, Assistant Professor, SCORE, VIT, Vellore</p>
