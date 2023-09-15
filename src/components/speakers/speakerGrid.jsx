@@ -21,22 +21,22 @@ import Rajat from "./../../../public/images/speakers/Rajat.png";
 import Saravana from "./../../../public/images/speakers/Saravana.png";
 import Shivashankar from "./../../../public/images/speakers/Shivashankar.png";
 import Shrikanth from "./../../../public/images/speakers/Shrikanth.png";
-
+import Azlan from "./../../../public/images/speakers/Azlan.png";
 
 const data = [
   {
     id: 1,
     image: Dr1,
     name: "Dr. Zvi Galil",
-    department: "Professor and Dean, College of Computing",
+    department: "Former Dean of Computing",
     college: "Georgia Institute of Technology, Atlanta, USA",
   },
   {
     id: 2,
     image: Vladimir,
     name: "Dr. Vladimir Brusic",
-    department: "Professor, Computer Science",
-    college: "University of Nottingham, China",
+    department: "Professor, Computing and Data Science",
+    college: "University of Nottingham, Ningbo, China",
   },
   {
     id: 3,
@@ -53,6 +53,13 @@ const data = [
     college: "Northumbria University,NewCastle, UK",
   },
   {
+    id: 10,
+    image: Dave,
+    name: "Dr. Dave Cliff",
+    department: "School of Engineering Mathematics Technology",
+    college: "University of Bristol, UK",
+  },
+  {
     id: 5,
     image: Ganesan,
     name: "Ganesan Narayanasamy",
@@ -67,18 +74,19 @@ const data = [
     college: "University of Fujairah, UAE",
   },
   {
-    id: 10,
-    image: Dave,
-    name: "Dr. Dave Cliff",
-    department: "School of Engineering Mathematics Technology",
-    college: "University of Bristol, UK",
+    id: 21,
+    image: Azlan,
+    name: "Dr. Azlan Bin Mohd Zain",
+    department: "Professor, Schhok of Computing, Faculty of Engineering",
+    college: "Universiti Teknologi Malaysia, Malaysia",
   },
+
   {
     id: 7,
     image: SpeakerImg,
     name: "Dr. Srinivas Talabattula",
     department: "Dept. Of Electrical Communication Engineering",
-    college: "Indian Institute of Science, Bangalore"
+    college: "Indian Institute of Science, Bangalore",
   },
   {
     id: 8,
@@ -114,13 +122,15 @@ const data = [
     name: "Dr. Rajat Subhra Chakraborty",
     department: "Department of Computer Science & Engineering",
     college: "Indian Institute of Technology, Kharagpur",
-  },  {
+  },
+  {
     id: 14,
     image: Jimson,
     name: "Dr. Jimson Mathew",
     department: "Department of Computer Science & Engineering",
     college: "Indian Institute of Technology, Patna",
-  },  {
+  },
+  {
     id: 15,
     image: Dileep,
     name: "Dr. Dileep A. D",
@@ -166,26 +176,31 @@ const data = [
 
 const SpeakerGrid = () => {
   return (
-      <div className="flex flex-col items-center md:items-stretch justify-between">
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-between pb-20">
-      {data.map((item) => (
-        <div
-          key={item.id}
-          className="p-4 bg-[#111042] w-full text-white flex flex-col items-center text-center rounded-3xl"
-        >
-          <Image src={item.image} alt={item.name} className="w-60 rounded-3xl"/>
-          <div className="pt-3 pb-2">
-            <h2 className="text-xl font-semibold">{item.name}</h2>
-            <p className="text-lg py-1">{item.department}</p>
-            <p className="text-lg">{item.college}</p>
+    <div className="flex flex-col items-center md:items-stretch justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-between pb-20">
+        {data.map((item) => (
+          <div
+            key={item.id}
+            className="p-4 bg-[#111042] w-full text-white flex flex-col items-center text-center rounded-3xl"
+          >
+            <Image
+              src={item.image}
+              alt={item.name}
+              className="w-60 rounded-3xl"
+            />
+            <div className="pt-3 pb-2">
+              <h2 className="text-xl font-semibold">{item.name}</h2>
+              <p className="text-lg py-1">{item.department}</p>
+              <p className="text-lg">{item.college}</p>
+            </div>
           </div>
-        </div>
-      ))}
-
-    </div>
-  <p className="text-2xl text-[#ea0763] flex flex-col items-center pb-10 font-bold">and many more...</p>
+        ))}
       </div>
-        );
+      <p className="text-2xl text-[#ea0763] flex flex-col items-center pb-10 font-bold">
+        and many more...
+      </p>
+    </div>
+  );
 };
 
 export default SpeakerGrid;
