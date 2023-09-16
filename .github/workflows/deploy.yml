@@ -25,6 +25,6 @@ jobs:
 
       - name: Deploy with Ansible
         run: |
-          ansible-playbook -i "182.66.218.102" -u adminuser deploy.yml
+          ansible-playbook -i "182.66.218.102" -u adminuser ansible-playbook/deploy.yml
         env:
           ANSIBLE_HOST_KEY_CHECKING: False
