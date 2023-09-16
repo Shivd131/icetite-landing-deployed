@@ -41,7 +41,7 @@ const heroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#111042] z-20" />
       <div className="absolute top-0 left-0 z-30 text-white mx-8 md:mx-16 lg:mx-16 flex flex-col h-full justify-center w-[80vw] md:w-[70vw] lg:w-[50vw]">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold">
-          to ic-ETITE'24!
+          Welcome to ic-ETITE'24!
         </h1>
 
         <p className="text-xl md:text-2xl lg:text-2xl my-6">
