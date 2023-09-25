@@ -22,13 +22,14 @@ import Saravana from "./../../../public/images/speakers/Saravana.png";
 import Shivashankar from "./../../../public/images/speakers/Shivashankar.png";
 import Shrikanth from "./../../../public/images/speakers/Shrikanth.png";
 import Azlan from "./../../../public/images/speakers/Azlan.png";
+import Yousef from "./../../../public/images/speakers/Yousef.png";
 
 const data = [
   {
     id: 1,
     image: Dr1,
     name: "Dr. Zvi Galil",
-    department: "Former Dean of Computing",
+    department: "Professor, Former Dean of Computing",
     college: "Georgia Institute of Technology, Atlanta, USA",
   },
   {
@@ -70,17 +71,23 @@ const data = [
     id: 6,
     image: Korhan,
     name: "Dr. Korhan Cengiz",
-    department: "Faculty of Engineering",
+    department: "College of Information Technology, Faculty of Engineering",
     college: "University of Fujairah, UAE",
   },
   {
     id: 21,
     image: Azlan,
     name: "Dr. Azlan Bin Mohd Zain",
-    department: "Professor, Schhok of Computing, Faculty of Engineering",
-    college: "Universiti Teknologi Malaysia, Malaysia",
+    department: "Professor, School of Computing, Faculty of Engineering",
+    college: "University Teknologi Malaysia, Malaysia",
   },
-
+  {
+    id: 22,
+    image: Yousef,
+    name: "Dr. Yousef Qawqzeh",
+    department: "College of Information Technology",
+    college: "Fujairah University, UAE",
+  },
   {
     id: 7,
     image: SpeakerImg,
