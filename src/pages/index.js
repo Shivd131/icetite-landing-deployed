@@ -14,8 +14,6 @@ import Gal1 from "./../../public/images/index/img1.png";
 import Gal2 from "./../../public/images/index/vit2.jpg";
 import Gal3 from "./../../public/images/index/img3.png";
 
-
-
 export default function Home() {
   const [shouldClip, setShouldClip] = useState(true);
   const [showScrollToTop, setShowScrollToTop] = useState(false);
@@ -24,16 +22,16 @@ export default function Home() {
   const [gal2Clicks, setGal2Clicks] = useState(0);
 
   const handleGal1Click = () => {
-    setGal1Clicks(prevClicks => prevClicks + 1);
+    setGal1Clicks((prevClicks) => prevClicks + 1);
     if (gal1Clicks === 4) {
-      window.open('https://www.linkedin.com/in/souvik-mukherjee-355943123/');
+      window.open("https://www.linkedin.com/in/souvik-mukherjee-355943123/");
     }
   };
 
   const handleGal2Click = () => {
-    setGal2Clicks(prevClicks => prevClicks + 1);
+    setGal2Clicks((prevClicks) => prevClicks + 1);
     if (gal2Clicks === 4) {
-      window.open('https://www.linkedin.com/in/ayushi-prasad-59310a1a0/');
+      window.open("https://www.linkedin.com/in/ayushi-prasad-59310a1a0/");
     }
   };
 
@@ -48,6 +46,23 @@ export default function Home() {
     "Registration For Indian Authors/Participants",
     "Registration For Foreign Authors/Participants",
   ];
+
+  const buttonUrls = [
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "https://events.vit.ac.in/events/ICETITE",
+    "https://events.vit.ac.in/events/ICETITE/foreign",
+  ];
+
+  const buttonData = buttonItems.map((item, index) => ({
+    label: item,
+    url: buttonUrls[index],
+  }));
 
   useEffect(() => {
     const handleResize = () => {
@@ -89,13 +104,13 @@ export default function Home() {
     <main className="overflow-hidden relative">
       <Navbar />
       <a
-          className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
-          onClick={scrollToTop}
+        className="fixed text-3xl cursor-pointer bottom-5 right-5 h-14 w-14 border-4 bg-blue-900 border-[#E7F4FF] py-2 px-3 rounded-full scrollbutton flex flex-col items-center justify-center"
+        onClick={scrollToTop}
       >
-        <Image src={DownArrow} alt="" className="rotate-180"/>
+        <Image src={DownArrow} alt="" className="rotate-180" />
       </a>
       <Hero />
-      <GridOfButtons items={buttonItems} />
+      <GridOfButtons items={buttonItems} url={buttonUrls} buttonData={buttonData} />
 
       <div className="flex flex-col md:flex-col lg:flex-row bg-[#E7F4FF] sm:m-0">
         <div
@@ -172,14 +187,14 @@ export default function Home() {
         </div>
         <div className="w-full sm:w-auto">
           <Image
-              src={Conf2}
-              alt="Image"
-              className="h-full object-cover sm:clip-none"
-              style={{
-                clipPath: shouldClip
-                    ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
-                    : "none",
-              }}
+            src={Conf2}
+            alt="Image"
+            className="h-full object-cover sm:clip-none"
+            style={{
+              clipPath: shouldClip
+                ? "polygon(0 0, 100% 0, 80% 100%, 0% 100%)"
+                : "none",
+            }}
           />
         </div>
       </div>
@@ -214,13 +229,15 @@ export default function Home() {
               the IEEE.
             </p>
             <p className="text-md  mr-10">
-              <a href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding" target="_blank" className="text-blue-700 font-bold">
+              <a
+                href="https://ieeexplore.ieee.org/xpl/conhome/9070069/proceeding"
+                target="_blank"
+                className="text-blue-700 font-bold"
+              >
                 ic-ETITE'20 Proceedings
               </a>
             </p>
-            <p className="text-lg ">
-              IEEE Xplore ISBN:978-1-7281-4142-8
-            </p>
+            <p className="text-lg ">IEEE Xplore ISBN:978-1-7281-4142-8</p>
             <p className="text-md ">USB ISBN:978-1-7281-4141-1</p>
             <p className="text-md ">
               ✶ ic-ETITE’20 had 21 technical and 17 keynote sessions.
@@ -279,47 +296,53 @@ export default function Home() {
                 teaching-learning, research and innovation make VIT unique.
               </p>
               <p>
-                ✶   Engineering and Technology subject areas of VIT are the 240th best in the World and the 9th best in India, eight subjects of VIT are within the top 500 in the world (as per QS World University Rankings by Subject 2023)
+                ✶ Engineering and Technology subject areas of VIT are the 240th
+                best in the World and the 9th best in India, eight subjects of
+                VIT are within the top 500 in the world (as per QS World
+                University Rankings by Subject 2023)
               </p>
               <p>
-                ✶ Computer Science & Information Systems subject of VIT is ranked among the top 201-250 Universities in the World and the 7th best institution in India (as per QS World University Rankings by Subject 2023)
-            </p>
-              <p>
-                ✶  The 8th best University, the 11th best research institution and the 11th best engineering institution in India (NIRF Ranking, Govt. of India 2023)
+                ✶ Computer Science & Information Systems subject of VIT is
+                ranked among the top 201-250 Universities in the World and the
+                7th best institution in India (as per QS World University
+                Rankings by Subject 2023)
               </p>
               <p>
-                ✶ The 173rd best Institution in Asia (QS - Asia University Rankings 2023)
+                ✶ The 8th best University, the 11th best research institution
+                and the 11th best engineering institution in India (NIRF
+                Ranking, Govt. of India 2023)
               </p>
               <p>
-                ✶ Ranked among the top 601-700 Universities of the world and one among the top 3 Institutions in India (Shanghai ARWU Ranking 2022)
+                ✶ The 173rd best Institution in Asia (QS - Asia University
+                Rankings 2023)
               </p>
               <p>
-                ✶ NAAC Accreditation with A++ grade (3.66 out of 4)
+                ✶ Ranked among the top 601-700 Universities of the world and one
+                among the top 3 Institutions in India (Shanghai ARWU Ranking
+                2022)
               </p>
-
-
-
+              <p>✶ NAAC Accreditation with A++ grade (3.66 out of 4)</p>
             </div>
           </div>
           <div className="pt-10">
             <h3 className="text-2xl font-bold">About SCORE (Formerly SITE)</h3>
             <p className="text-md py-3 text-justify">
-              The School of Computer Science Engineering and Information Systems (SCORE) offers
-              B.Tech (IT), M.Tech (Software Engineering), MCA, BCA, B.Sc
-              (Computer Science), M.Tech (by Research) and Ph.D programs in the
-              domain of Information Technology and Engineering. Its focus is on
-              holistic learning to help students to make significant
-              contributions to the Information Technology industry and to serve
-              society at large. The school has more than 5,900 students and 188
-              committed faculty members, apart from many visiting professors,
-              working professionals from the industry and R&D organizations. The
-              School has State-of-the-art infrastructure for teaching-learning,
-              research and consultancy. The School has strong linkages with
-              leading IT companies and research organizations. It has many
-              industry-supported Laboratories and Centre of Excellence. It has a
-              track record in organizing many Seminars, Workshops, Symposia and
-              Conferences in the emerging and technical areas of Information
-              Technology and Engineering.
+              The School of Computer Science Engineering and Information Systems
+              (SCORE) offers B.Tech (IT), M.Tech (Software Engineering), MCA,
+              BCA, B.Sc (Computer Science), M.Tech (by Research) and Ph.D
+              programs in the domain of Information Technology and Engineering.
+              Its focus is on holistic learning to help students to make
+              significant contributions to the Information Technology industry
+              and to serve society at large. The school has more than 5,900
+              students and 188 committed faculty members, apart from many
+              visiting professors, working professionals from the industry and
+              R&D organizations. The School has State-of-the-art infrastructure
+              for teaching-learning, research and consultancy. The School has
+              strong linkages with leading IT companies and research
+              organizations. It has many industry-supported Laboratories and
+              Centre of Excellence. It has a track record in organizing many
+              Seminars, Workshops, Symposia and Conferences in the emerging and
+              technical areas of Information Technology and Engineering.
             </p>
           </div>
           <div className="pt-10">
@@ -341,18 +364,24 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center">
-        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]" onClick={handleGal1Click}>
+        <div
+          className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]"
+          onClick={handleGal1Click}
+        >
           <Image
-              src={Gal1}
-              alt=""
-              className="object-cover object-center h-full"
+            src={Gal1}
+            alt=""
+            className="object-cover object-center h-full"
           />
         </div>
-        <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]" onClick={handleGal2Click}>
+        <div
+          className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]"
+          onClick={handleGal2Click}
+        >
           <Image
-              src={Gal2}
-              alt=""
-              className="object-cover object-center h-full"
+            src={Gal2}
+            alt=""
+            className="object-cover object-center h-full"
           />
         </div>
         <div className="w-full md:w-1/3 lg:w-1/3 bg-cover aspect-w-3 h-[40vh]">
@@ -369,11 +398,23 @@ export default function Home() {
           Manuscript Submission
         </h3>
         <p className="text-md py-3 text-justify">
-          The papers should be submitted through <a className="text-blue-800 font-bold" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024">link</a> provided. All submitted papers will go through a plagiarism check process. The manuscript should not contain embedded links, scanned images, header and footer. Email submission will not be accepted. All queries related to the conference shall be addressed to icetiteconference@vit.ac.in Original Contributions are solicited on topics covered under broad areas not restricted to Information Technology and Engineering.
+          The papers should be submitted through{" "}
+          <a
+            className="text-blue-800 font-bold"
+            target="_blank"
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024"
+          >
+            link
+          </a>{" "}
+          provided. All submitted papers will go through a plagiarism check
+          process. The manuscript should not contain embedded links, scanned
+          images, header and footer. Email submission will not be accepted. All
+          queries related to the conference shall be addressed to
+          icetiteconference@vit.ac.in Original Contributions are solicited on
+          topics covered under broad areas not restricted to Information
+          Technology and Engineering.
         </p>
       </div>
-
-
 
       <style jsx>{`
         @media (max-width: 640px) {
