@@ -37,26 +37,28 @@ export default function Home() {
 
   const buttonItems = [
     "PAPER SUBMISSION",
+    "Registration For Indian Authors/Participants",
+    "Registration For Foreign Authors/Participants",
     "IEEE ic-ETITE'24 Final Paper Template",
     "General Information For Registered Authors",
     "Instructions For Paper Presentation",
     "Guidelines For IEEE PDF eXpress",
     "IEEE Copyright eCF",
     "Camera Ready Paper Submission",
-    "Registration For Indian Authors/Participants",
-    "Registration For Foreign Authors/Participants",
+    
   ];
 
   const buttonUrls = [
-    "#",
-    "#",
-    "#",
-    "#",
-    "#",
-    "#",
-    "#",
+    "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FicETITE2024",
     "https://events.vit.ac.in/events/ICETITE",
     "https://events.vit.ac.in/events/ICETITE/foreign",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    
   ];
 
   const buttonData = buttonItems.map((item, index) => ({
