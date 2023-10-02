@@ -731,9 +731,6 @@ const Committee = () => {
           <p>Soha Jagtap (21BCB0259)</p>
 
           <p className="font-bold text-xl text-orange-600">Events Committee</p>
-          <p>
-            <strong>Shalavya Agarwal</strong> (21BCE2454)
-          </p>
           <p>Adya Sawhney (21BCE3391)</p>
           <p>Sachin Raghuvanshi (21BIT0223)</p>
           <p>Priyanshi Shah (21BIT0378)</p>
