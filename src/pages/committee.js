@@ -22,7 +22,6 @@ const Committee = () => {
           <p className="font-bold text-xl text-orange-600">
             Executive Committee
           </p>
-          <p>Dr. Prabhavathy. P, HOD/IT, SCORE, VIT, Vellore</p>
           <p>Dr. Neelu Khare, HOD/SSE, SCORE, VIT, Vellore</p>
           <p>Dr. Parimala. M, HOD/SC, SCORE, VIT, Vellore</p>
           <p>Dr. Vanitha. M, HOD/CA, SCORE, VIT, Vellore</p>
@@ -519,149 +518,222 @@ const Committee = () => {
       return (
         <div className="bg-orange flex flex-col items-start w-full text-white bg-[#111042] space-y-1 text-lg py-10 px-10 rounded-md">
           <p className="font-bold text-xl text-orange-600">
+            Student Organizers
+          </p>
+          <p>
+            <strong>Mr. Souvik Mukherjee (21BCE0021)</strong>
+          </p>
+          <p>
+            <strong>Ms. Ayushi Prasad (21BML0041)</strong>
+          </p>
+          <p>
+            <strong>Mr. Jai Munjal (21BIT0709)</strong>
+          </p>
+          <p>
+            <strong>Mr. Sourav Dhanania (21BKT0049)</strong>
+          </p>
+          <p>
+            <strong>Mr. Lohith Pattubala (21MIS0194)</strong>
+          </p>
+          <p className="font-bold text-xl text-orange-600">
             Technical Committee
           </p>
-          <p>Aaditya Mahanta</p>
-          <p>Vaibhav Pathak</p>
-          <p>Shivam Sharma</p>
-          <p>Siddharth Dave</p>
-          <p>Ojal Binoj Koshy</p>
-          <p>Yashaswini Shivathaya</p>
-          <p>Chirag Singh</p>
-          <p>Rudrank Basant</p>
-          <p>Kaushal Vishnukanth Rathi</p>
-          <p>Ojas Tyagi</p>
-          <p>Pratham Gupta</p>
-          <p>Prateek Srivastava</p>
-          <p>Tanvi Jain</p>
-          <p>Nishant Gupta</p>
-          <p>Pranav Deshmukh</p>
-          <p>Shiv Deshpande</p>
-          <p>Gaurav Choudhary</p>
-          <p>Soham Ghugare</p>
-          <p>Yajat Kapur</p>
-          <p>Vedant Matanhelia</p>
-          <p>Kairav Nitin Sheth</p>
-          <p>Vaibhav Pandey</p>
-          <p>Abhinav Ganeshan</p>
-          <p>Ryan Jacob</p>
-          <p>Vasu Somani</p>
-          <p>Samyak Jain</p>
-          <p>Kunal Singh Beniwal</p>
-          <p>Aanchal Shah</p>
+          <p>
+            <strong>Aaditya Mahanta(21BCI0046)</strong>
+          </p>
+          <p>
+            <strong>Vaibhav Pathak(21BCE0835)</strong>
+          </p>
+          <p>Shivam Sharma (21BCE0665)</p>
+          <p>Siddharth Dave (21BEC2084)</p>
+          <p>Ojal Binoj Koshy (21BCE2641)</p>
+          <p>Yashaswini Shivathaya (21BCE2332)</p>
+          <p>Chirag Singh (21BCE2683)</p>
+          <p>Rudrank Basant (21BCI0149)</p>
+          <p>Kaushal Vishnukanth Rathi (21BCT0084)</p>
+          <p>Ojas Tyagi (21BDS0026)</p>
+          <p>Pratham Gupta (21BCE2534)</p>
+          <p>Prateek Srivastava (22BCI0259)</p>
+          <p>Tanvi Jain (22BCE0989)</p>
+          <p>Nishant Gupta (22BCT0304)</p>
+          <p>Pranav Deshmukh (22BCE3207)</p>
+          <p>Shiv Deshpande (22BIT0601)</p>
+          <p>Gaurav Choudhary (22BIT0375)</p>
+          <p>Soham Ghugare (22BCE2053)</p>
+          <p>Yajat Kapur (22BBS0110)</p>
+          <p>Vedant Matanhelia (22BCE2788)</p>
+          <p>Kairav Nitin Sheth (22BCI0024)</p>
+          <p>Vaibhav Pandey (22BKT0081)</p>
+          <p>Abhinav Ganeshan (22BCI0013)</p>
+          <p>Ryan Jacob (22BCT0356)</p>
+          <p>Vasu Somani (22BCE0539)</p>
+          <p>Samyak Jain (22BBS0233)</p>
+          <p>Kunal Singh Beniwal (22BCE2174)</p>
+          <p>Aanchal Shah (22BCE3710)</p>
+
           <p className="font-bold text-xl text-orange-600">Finance Committee</p>
-          <p>Komal Vaswani</p>
-          <p>K Abhimanyu Nair</p>
-          <p>Vaibhavi Jha</p>
-          <p>Manas</p>
-          <p>Varsha S</p>
-          <p>Armaan Sharma</p>
-          <p>Ansu Banerjee</p>
-          <p>Karan Bihani</p>
-          <p>Anant Garg</p>
-          <p>Muthumeenakshi</p>
-          <p>Ayush Singh</p>
-          <p>Sumit Kejriwal</p>
-          <p>Utkarsh Tomar</p>
-          <p>Animesh Seth</p>
-          <p>Raghvendra</p>
-          <p>Ayushman Singh</p>
-          <p>Abhiram Aravind</p>
-          <p>Aaditya Gupta</p>
-          <p>Stephanie Ritla</p>
-          <p>Arpita Mishra</p>
-          <p>Arya Dankh</p>
-          <p>Ganta Avishi Sreenidhi</p>
-          <p>Parima Shah</p>
-          <p>Nataansh Arora</p>
-          <p>Garv Jain</p>
-          <p>Samyuktha Varma</p>
-          <p>K Udaya Sindhu</p>
-          <p>Rishab C P</p>
-          <p>Anwesha Guhaa</p>
-          <p>Maitreyi Bhardwaj</p>
-          <p>Hemanth Shivanand Balgi</p>
-          <p>Tamanna Bishnoi</p>
-          <p>Anoushka Tandon</p>
-          <p>Gaurang Bhatnagar</p>
-          <p>Shivam Dave</p>
-          <p>Sreya Prasobh</p>
-          <p>Akansha Maneesh</p>
-          <p>Malhar Shah</p>
-          <p>Hrishikesh Sane</p>
-          <p>Jahnika</p>
-          <p>Vinayak Trivedi</p>
-          <p>Anjali Ghuge</p>
-          <p>Divija V Agarwal</p>
-          <p>Aastik Narang</p>
-          <p>Soumil Binhani</p>
-          <p>Himanshu Shekhar</p>
-          <p>Sharvika S</p>
-          <p>Stuti Kothari</p>
-          <p>Dan Anderson</p>
+          <p>
+            <strong>Arushi Bawa (21BCE3370)</strong>
+          </p>
+          <p>
+            <strong>Swayam Ambashtha (21BCE0232)</strong>
+          </p>
+          <p>Amlan Srivastava (21BCE2945)</p>
+          <p>Tanya Nijhawan (21BIT0314)</p>
+          <p>Manan Anil Sharma (21BIT0221)</p>
+          <p>Arshita Nag (21BCE0508)</p>
+          <p>Bhavesh Sai (21BEC0820)</p>
+          <p>Raman Sharma (21BEI0005)</p>
+          <p>Charlese Patel (21BCE2984)</p>
+          <p>Chahak Gupta (21BDS0381)</p>
+          <p>Saanvi Samir Shah (21BCE2558)</p>
+          <p>Sharvil Karwa (21BCE0122)</p>
+          <p>Ramya Maheshwari (21BCE3032)</p>
+          <p>Ishan Audichya (21BCE3324)</p>
+          <p>Aarushi Kalia (21BEC0117)</p>
+          <p>Akshat Chaudhary (21BEC2516)</p>
+          <p>Vaishnavi Rathod (21BCB0191)</p>
+          <p>Gaurav Hegde (21BCE0602)</p>
+          <p>S Chandan (21BML0142)</p>
+          <p>Aadit Shah (21BDS0203)</p>
+          <p>Ansh Agarwal (21BCI0298)</p>
+          <p>Murtaza Saleem (21BME0448)</p>
+          <p>Aayush Chhikara (21BCE0346)</p>
+          <p>Komal Vaswani (21BBT0141)</p>
+          <p>K Abhimanyu Nair (21BCE0282)</p>
+          <p>Vaibhavi Jha (21BCE0399)</p>
+          <p>Manas (22BKT0060)</p>
+          <p>Varsha S (22BCE2469)</p>
+          <p>Armaan Sharma (22BDS0317)</p>
+          <p>Ansu Banerjee (22BEC0130)</p>
+          <p>Karan Bihani (22BCE3396)</p>
+          <p>Anant Garg (22BCE0586)</p>
+          <p>Muthumeenakshi (22BBT0220)</p>
+          <p>Ayush Singh (22BEC0567)</p>
+          <p>Sumit Kejriwal (21BCE2671)</p>
+          <p>Utkarsh Tomar (22BCE3149)</p>
+          <p>Animesh Seth (21BBS0053)</p>
+          <p>Raghvendra (21BCE0528)</p>
+          <p>Ayushman Singh (21BIT0241)</p>
+          <p>Abhiram Aravind (22MIC0170)</p>
+          <p>Aaditya Gupta (22BCE2070)</p>
+          <p>Stephanie Ritla (21BCE3631)</p>
+          <p>Arpita Mishra (21BME0282)</p>
+          <p>Arya Dankh (21BEC0246)</p>
+          <p>Ganta Avishi Sreenidhi (22BCE3254)</p>
+          <p>Parima Shah (22BEC0167)</p>
+          <p>Nataansh Arora (22BEE0022)</p>
+          <p>Garv Jain (22BDS0188)</p>
+          <p>Samyuktha Varma (22BEC0007)</p>
+          <p>K Udaya Sindhu (22BCE0436)</p>
+          <p>Rishab C P (22BCE3194)</p>
+          <p>Anwesha Guhaa (22BCE3376)</p>
+          <p>Maitreyi Bhardwaj (22BCE0648)</p>
+          <p>Hemanth Shivanand Balgi (22BCE3106)</p>
+          <p>Tamanna Bishnoi (22BCE0919)</p>
+          <p>Anoushka Tandon (22BEC0383)</p>
+          <p>Gaurang Bhatnagar (21BMA0108)</p>
+          <p>Shivam Dave (21BCB0107)</p>
+          <p>Sreya Prasobh (22BCL0079)</p>
+          <p>Akansha Maneesh (22BEC0002)</p>
+          <p>Malhar Shah (21BCE0146)</p>
+          <p>Hrishikesh Sane (22BCE0579)</p>
+          <p>Jahnika (22BBS0192)</p>
+          <p>Vinayak Trivedi (22BCE0521)</p>
+          <p>Anjali Ghuge (22BCE0641)</p>
+          <p>Divija V Agarwal (22BDS0329)</p>
+          <p>Aastik Narang (22BCE3152)</p>
+          <p>Soumil Binhani (22BDS0275)</p>
+          <p>Himanshu Shekhar (22BBS0070)</p>
+          <p>Sharvika S (22BEC0226)</p>
+          <p>Stuti Kothari (21BIT0331)</p>
+          <p>Dan Anderson (21BCE3545)</p>
+
           <p className="font-bold text-xl text-orange-600">Bolt Committee</p>
-          <p>Soosan Shabnam</p>
-          <p>Satyam Ashutosh Rai</p>
-          <p>Jeet Kanodia</p>
-          <p>Anand Rajaram</p>
-          <p>Mayhul Jindal</p>
-          <p>Kartik Gupta</p>
-          <p>Shiva Raj Nair</p>
-          <p>Hemanth Kumar Singh</p>
-          <p>Adhiraj Singh Cheema</p>
-          <p>Rupanjana Choudhury</p>
-          <p>Utkarsh Rai</p>
-          <p>Srisha Deepak Poddar</p>
-          <p>Spandan Kumar</p>
-          <p>Theresa Jacob</p>
-          <p>Niranjana Boby</p>
-          <p>Pavan Balaji</p>
-          <p>Saharsh Bhansali</p>
-          <p>Sara Hasan</p>
-          <p>Devansh Kuldeep Mishra</p>
-          <p>Achintya Gupta</p>
-          <p>Pramiti Shekhar Singh</p>
-          <p>Taniya Hussain</p>
-          <p>Shaurya Sharma</p>
+          <p>
+            <strong>Soosan Shabnam</strong> (21BCE0172)
+          </p>
+          <p>
+            <strong>Satyam Ashutosh Rai</strong> (21BCE2087)
+          </p>
+          <p>
+            <strong>Jeet Kanodia</strong> (21BIT0636)
+          </p>
+          <p>Anand Rajaram (21BCI0068)</p>
+          <p>Mayhul Jindal (21BCE0300)</p>
+          <p>Kartik Gupta (21BCI0194)</p>
+          <p>Shiva Raj Nair (21BCE0195)</p>
+          <p>Hemanth Kumar Singh (21BCE2520)</p>
+          <p>Adhiraj Singh Cheema (21BCI0365)</p>
+          <p>Rupanjana Choudhury (21BCI0376)</p>
+          <p>Utkarsh Rai (21BDS0180)</p>
+          <p>Srisha Deepak Poddar (21BCI0015)</p>
+          <p>Spandan Kumar (21BCE0301)</p>
+          <p>Theresa Jacob (21BCE2130)</p>
+          <p>Niranjana Boby (21BCI0375)</p>
+          <p>Pavan Balaji (21BCE2141)</p>
+          <p>Saharsh Bhansali (21BCI0028)</p>
+          <p>Sara Hasan (21BCE3972)</p>
+          <p>Devansh Kuldeep Mishra (21BCE2742)</p>
+          <p>Achintya Gupta (21BCE2730)</p>
+          <p>Pramiti Shekhar Singh (21BCE3479)</p>
+          <p>Taniya Hussain (21BKT0083)</p>
+          <p>Shaurya Sharma (21BCE0510)</p>
+
           <p className="font-bold text-xl text-orange-600">
             Conference Committee
           </p>
-          <p>Ishank Goel</p>
-          <p>Shivam Sharma</p>
-          <p>Mudit Sultania</p>
-          <p>Ashish Hallur</p>
-          <p>Hridya Menon P</p>
-          <p>R Tharun</p>
-          <p>Devika A</p>
-          <p>Krishna V Nair</p>
-          <p>Ashwani Kumar Moudgil</p>
-          <p>M Sri Pranav</p>
-          <p>Shambhavi Shreya</p>
-          <p>Ujjval Raghavendra L</p>
-          <p>Lakshmi K R</p>
-          <p>Shruthi P</p>
-          <p>Subham Agarwal</p>
-          <p>Shalavya Agrawal</p>
+          <p>
+            <strong>Ishank Goel (21BEC0435)</strong>
+          </p>
+          <p>
+            <strong>Shalavya Agrawal (21BCE2454)</strong>
+          </p>
+          <p>
+            <strong>Gamak Sahani (21BCE0889)</strong>
+          </p>
+          <p>Shivam Sharma (21BEC0367)</p>
+          <p>Mudit Sultania (21BBS0232)</p>
+          <p>Ashish Hallur (21BEC0883)</p>
+          <p>Hridya Menon P (22BCE2526)</p>
+          <p>R Tharun (22BCE0634)</p>
+          <p>Devika A (22BCE0836)</p>
+          <p>Krishna V Nair (22BEE0260)</p>
+          <p>Ashwani Kumar Moudgil (22BCE0553)</p>
+          <p>M Sri Pranav (22BCI0088)</p>
+          <p>Shambhavi Shreya (22BCE2516)</p>
+          <p>Ujjval Raghavendra L (22BEC0464)</p>
+          <p>Lakshmi K R (22BEC0110)</p>
+          <p>Shruthi P (22BEC0154)</p>
+          <p>Subham Agarwal (22BCE2092)</p>
           <p>Vansh Gupta</p>
           <p>Priyanshi Jain</p>
-          <p>Atharv Gupta</p>
-          <p>Swathi M</p>
+          <p>Atharv Gupta (21BCE0316)</p>
+          <p>Swathi M (21BBT0152)</p>
           <p>Ishaan</p>
-          <p>Manan Shah</p>
-          <p>Vrinda Bajaj</p>
-          <p>T Aasritha</p>
-          <p>Meenakshi R S</p>
-          <p>Kritika Bansal</p>
-          <p>Aprajita Nandkeuliar</p>
-          <p>Shreyashi Deb Roy</p>
-          <p>Gamak Sahani</p>
-          <p>Aryan Arora</p>
-          <p>Aksh Ranjan</p>
+          <p>Manan Shah (22BCE0618)</p>
+          <p>Vrinda Bajaj (22BCE2251)</p>
+          <p>T Aasritha (22MIC0111)</p>
+          <p>Meenakshi R S (22MIC0056)</p>
+          <p>Kritika Bansal (22BDS0304)</p>
+          <p>Aprajita Nandkeuliar (22BCE0544)</p>
+          <p>Shreyashi Deb Roy (22BCE0470)</p>
+          <p>Aryan Arora (21BIT0253)</p>
+          <p>Aksh Ranjan (21BCI0071)</p>
+
+          <p className="font-bold text-xl text-orange-600">
+            Marketing Committee
+          </p>
+          <p>
+            <strong>Tanisha Chandak (21BCE3105)</strong>
+          </p>
+          <p>Muskan Arora (21BIT0145)</p>
+          <p>Soha Jagtap (21BCB0259)</p>
+
           <p className="font-bold text-xl text-orange-600">Events Committee</p>
-          <p>Shalavya Agarwal</p>
-          <p>Adya Sawhney</p>
-          <p>Sachin Raghuvanshi</p>
-          <p>Priyanshi Shah</p>
+          <p>Adya Sawhney (21BCE3391)</p>
+          <p>Sachin Raghuvanshi (21BIT0223)</p>
+          <p>Priyanshi Shah (21BIT0378)</p>
         </div>
       );
     }

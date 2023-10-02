@@ -10,6 +10,9 @@ import Ieeenav from "./../../../public/icons/ieeemadras.png";
 import Ieee from "./../../../public/icons/ieeemain.png";
 
 const Navbar = () => {
+  const handleClick = (url) => {
+    window.open(url, "_blank");
+  };
   const [showDropdown, setShowDropdown] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
@@ -66,24 +69,24 @@ const Navbar = () => {
             <a href="/" className="text-xl text-white hover:text-gray-300">
               Home
             </a>
-            <a href="/bolt" className="text-xl text-white hover:text-gray-300">
+            <a onClick={() => handleClick("http://bolt.vit.ac.in")} className="text-xl text-white hover:text-gray-300 cursor-pointer">
               Bolt
             </a>
             <a
-                href="/registrations"
-                className="text-xl text-white hover:text-gray-300"
+              href="/registrations"
+              className="text-xl text-white hover:text-gray-300"
             >
               Registrations
             </a>
             <a
-                href="/speakers"
-                className="text-xl text-white hover:text-gray-300"
+              href="/speakers"
+              className="text-xl text-white hover:text-gray-300"
             >
               Speakers
             </a>
             <a
-                href="/committee"
-                className="text-xl text-white hover:text-gray-300"
+              href="/committee"
+              className="text-xl text-white hover:text-gray-300"
             >
               Committee
             </a>
@@ -94,27 +97,24 @@ const Navbar = () => {
               Sponsorship
             </a>
             <a
-                href="/authors"
-                className="text-xl text-white hover:text-gray-300"
+              href="/authors"
+              className="text-xl text-white hover:text-gray-300"
             >
               Authors
             </a>
             <a
-                href="/icetite20"
-                className="text-xl text-white hover:text-gray-300"
+              href="/icetite20"
+              className="text-xl text-white hover:text-gray-300"
             >
               Ic'ETITE-20
             </a>
-            <a
-                href="/visa"
-                className="text-xl text-white hover:text-gray-300"
-            >
+            <a href="/visa" className="text-xl text-white hover:text-gray-300">
               VISA
             </a>
 
             <a
-                href="/contact"
-                className="text-xl text-white hover:text-gray-300"
+              href="/contact"
+              className="text-xl text-white hover:text-gray-300"
             >
               Contact Us
             </a>
@@ -128,21 +128,25 @@ const Navbar = () => {
     <div className="px-20 bg-[#111042] text-white py-2 flex flex-row items-center text-xl justify-between z-50">
       <div className="flex flex-row space-x-5">
         <a href="/">
-        <Image src={Icetite} alt="" className=" w-52 -translate-x-10" />
+          <Image src={Icetite} alt="" className=" w-52 -translate-x-10" />
         </a>
         {!isTabletOrMobile && (
-            <>
-              <a href="/bolt">
-                <Image src={Bolt} alt="" className="h-20 w-auto -translate-x-10" />
-              </a>
-            </>
+          <>
+            <a onClick={() => handleClick("http://bolt.vit.ac.in")} className="cursor-pointer">
+              <Image
+                src={Bolt}
+
+                alt=""
+                className="h-20 w-auto -translate-x-10"
+              />
+            </a>
+          </>
         )}
       </div>
       {isMobile ? (
         <button onClick={() => setShowMobileMenu(!showMobileMenu)}>☰</button>
       ) : (
         <div className="flex flex-row items-center justify-center space-x-10 text-lg md:text-xl">
-
           <a href="/">Home</a>
           <div
             className="relative group"
@@ -164,8 +168,8 @@ const Navbar = () => {
               variants={dropdownVariants}
             >
               <a
-                  className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
-                  href="/authors"
+                className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
+                href="/authors"
               >
                 Authors
               </a>
@@ -202,10 +206,9 @@ const Navbar = () => {
               </a>
             </motion.div>
           </div>
-          <a href="/">TechNext'24</a>
+          <a onClick={() => handleClick("http://technext.vit.ac.in")} className="cursor-pointer">TechNext'24</a>
           <a href="/visa">Visa</a>
           <a href="/contact">Contact</a>
-
         </div>
       )}
 
@@ -217,7 +220,6 @@ const Navbar = () => {
           <a href="https://vit.ac.in">
             <Image src={Vit} alt="" className="translate-x-5 h-10 w-auto" />
           </a>
-
         </div>
       )}
       {renderMobileMenu()}
