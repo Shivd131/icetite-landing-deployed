@@ -4,7 +4,7 @@ import BgImageDesktop from "./../../../public/images/vit.png";
 import BgImageMobile from "./../../../public/images/vit-mobile.png";
 import IeeeNav from "../../../public/icons/ieeemadras.png";
 
-const heroSection = () => {
+const HeroSection = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -43,13 +43,18 @@ const heroSection = () => {
                 </h1>
                 <div className="py-3"></div>
                 <div className="flex flex-col md:flex-row lg:flex-row space-x-0 md:space-x-5 lg:space-x-5 py-3 space-y-4 md:space-y-0 lg:space-y-0 ">
-                    <button className="border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96">
-                        Click here to Register
-                    </button>
+                    
+                    <a href="https://events.vit.ac.in/events/ICETITE" target="_blank" rel="noopener noreferrer" className="text-center border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96">
+                        Click here Register For Indian Authors/Participants
+                    </a>
+                    <a href="https://events.vit.ac.in/events/ICETITE/foreign" target="_blank" rel="noopener noreferrer" className="text-center border-2 border-white bg-transparent hover:bg-white text-white hover:text-[#111042] py-2 px-4 text-base sm:text-lg font-semibold rounded-md shadow z-40 cursor-pointer transition-all w-full md:w-96 lg:w-96">
+                        Click here Register For Foreign Authors/Participants
+                    </a>
+                    
                 </div>
             </div>
         </div>
     );
 };
 
-export default heroSection;
+export default HeroSection;
