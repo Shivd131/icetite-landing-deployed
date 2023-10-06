@@ -11,8 +11,8 @@ const GridOfButtons = ({ buttonData }) => {
               ? "https://docs.google.com/document/d/1wOA1VCp99Ou5bmZmAaIIMWRomM2anSEF/edit?usp=sharing&ouid=116025341701836271433&rtpof=true&sd=true"
               : item.url
           }
-          download={index === 3 ? "" : "template.docx"} // Specify the desired filename for others
-          target="_blank" // Open in a new tab
+          download={index === 3 ? "" : "template.docx"} 
+          target="_blank" 
           className={
             (index === 3
               ? "bg-green-700 hover:bg-green-900"
