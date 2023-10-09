@@ -44,11 +44,17 @@ const Committee = () => {
           <p>Dr. Jothish Kumar, Assistant Professor, SCORE, VIT, Vellore</p>
           <p className="font-bold text-xl text-orange-600">Expo’24 Committee</p>
           <p>Dr. Raghavan. R, Associate Professor, SCORE, VIT, Vellore</p>
+          <p>Dr. Kumaresan. P, Assistant Professor, SCORE, VIT, Vellore</p>
+
+          <p>Dr. Chemmalar Selvi G, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>
             Dr. Thanga Mariappan. L, Assistant Professor, SCORE, VIT, Vellore
           </p>
           <p>Dr. Arun Pandian. J, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Jerart Julus. L, Assistant Professor, SCORE, VIT, Vellore</p>
+          <p>Dr. Bharanidharan N, Assistant Professor, SCORE, VIT, Vellore</p>
+
+          <p>Dr. Balaji E, Assistant Professor, SCORE, VIT, Vellore</p>
 
           <p className="font-bold text-xl text-orange-600">
             Technical Programme Committee
@@ -71,7 +77,7 @@ const Committee = () => {
           <p>Dr. Vivekananda. G. N, Associate Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Kalaivani. S, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Rathi. R, Assistant Professor, SCORE, VIT, Vellore</p>
-          <p>Dr. Kumaresan. P , Assistant Professor, SCORE, VIT, Vellore</p>
+
           <p>Dr. Santhi. K, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Gayathri. A, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>
@@ -79,7 +85,7 @@ const Committee = () => {
             Vellore
           </p>
           <p>Dr. Magesh. G, Assistant Professor, SCORE, VIT, Vellore</p>
-          <p>Dr. Chemmalar Selvi G Assistant Professor, SCORE, VIT, Vellore</p>
+
           <p>Dr. Balasubramani. M, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Karthikeyan. D, Assistant Professor, SCORE, VIT, Vellore</p>
           <p>Dr. Arun Kumar. A, Assistant Professor, SCORE, VIT, Vellore</p>
