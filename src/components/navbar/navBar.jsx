@@ -69,8 +69,17 @@ const Navbar = () => {
             <a href="/" className="text-xl text-white hover:text-gray-300">
               Home
             </a>
-            <a onClick={() => handleClick("http://bolt.vit.ac.in")} className="text-xl text-white hover:text-gray-300 cursor-pointer">
-              Bolt
+            <a
+              onClick={() => handleClick("https://bolt.vit.ac.in")}
+              className="text-xl text-white hover:text-gray-300 cursor-pointer"
+            >
+              Bolt 2.0
+            </a>
+            <a
+              onClick={() => handleClick("https://technext.vit.ac.in")}
+              className="text-xl text-white hover:text-gray-300 cursor-pointer"
+            >
+              TechNext'24
             </a>
             <a
               href="/registrations"
@@ -132,10 +141,12 @@ const Navbar = () => {
         </a>
         {!isTabletOrMobile && (
           <>
-            <a onClick={() => handleClick("http://bolt.vit.ac.in")} className="cursor-pointer">
+            <a
+              onClick={() => handleClick("https://bolt.vit.ac.in")}
+              className="cursor-pointer"
+            >
               <Image
                 src={Bolt}
-
                 alt=""
                 className="h-20 w-auto -translate-x-10"
               />
@@ -206,7 +217,14 @@ const Navbar = () => {
               </a>
             </motion.div>
           </div>
-          <a onClick={() => handleClick("http://technext.vit.ac.in")} className="cursor-pointer">TechNext'24</a>
+          
+          <a
+            onClick={() => handleClick("https://technext.vit.ac.in")}
+            className="cursor-pointer"
+          >
+            TechNext'24
+          </a>
+          
           <a href="/visa">Visa</a>
           <a href="/contact">Contact</a>
         </div>
