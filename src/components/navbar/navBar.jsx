@@ -208,24 +208,18 @@ const Navbar = () => {
               >
                 Sponsorships
               </a>
-
-              <a
-                className="block px-4 py-2 hover:bg-[#111042]  rounded-xl m-2 hover:text-white"
-                href="/icetite20"
-              >
-                ic-ETITE'20
-              </a>
             </motion.div>
           </div>
-          
+
           <a
             onClick={() => handleClick("https://technext.vit.ac.in")}
             className="cursor-pointer"
           >
             TechNext'24
           </a>
-          
+
           <a href="/visa">Visa</a>
+          <a href="/icetite20">ic-ETITE'20</a>
           <a href="/contact">Contact</a>
         </div>
       )}
