@@ -688,6 +688,7 @@ const Committee = () => {
           <p>Pramiti Shekhar Singh (21BCE3479)</p>
           <p>Taniya Hussain (21BKT0083)</p>
           <p>Shaurya Sharma (21BCE0510)</p>
+          <p>Eshita Jain (22BCE3000)</p>
 
           <p className="font-bold text-xl text-orange-600">
             Conference Committee
