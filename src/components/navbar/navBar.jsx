@@ -219,7 +219,7 @@ const Navbar = () => {
           </a>
 
           <a href="/visa">Visa</a>
-          <a href="/icetite20">ic-ETITE'20</a>
+          <a className="whitespace-nowrap" href="/icetite20">ic-ETITE'20</a>
           <a href="/contact">Contact</a>
         </div>
       )}
