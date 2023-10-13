@@ -135,7 +135,7 @@ const Navbar = () => {
 
   return (
     <div className="px-20 bg-[#111042] text-white py-2 flex flex-row items-center text-xl justify-between z-50">
-      <div className="flex flex-row space-x-5">
+      <div className="flex flex-row items-center space-x-5">
         <a href="/">
           <Image src={Icetite} alt="" className=" w-52 -translate-x-10" />
         </a>
