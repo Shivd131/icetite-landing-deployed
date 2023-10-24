@@ -164,13 +164,14 @@ const Navbar = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <div className="flex flex-row space-x-2 items-center">
+            <div className=" whitespace-nowrap  flex flex-row  space-x-2 items-center">
               <p>Conference</p>
               <motion.div
                 animate={showDropdown ? "open" : "closed"}
                 variants={arrowVariants}
+                className="flex-shrink-0"
               >
-                <Image src={DownArrow} alt="" className="w-3 h-3 rotate-180" />
+                <Image src={DownArrow} alt="" className="flex-shrink-0  w-[10px] h-[10px] rotate-180" />
               </motion.div>
             </div>
             <motion.div

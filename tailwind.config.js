@@ -11,5 +11,9 @@ module.exports = {
         none: "none",
       },
     },
+    screens: {
+      'smc': '1422px',
+      
+    }
   },
 };
